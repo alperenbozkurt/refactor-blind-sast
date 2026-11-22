@@ -1,0 +1,1682 @@
+[
+ {
+  "id": "22_DS-19",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "extract_archive",
+  "anon": "P000"
+ },
+ {
+  "id": "77_DS-3",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "LogAnalyzer.search_logs",
+  "anon": "P001"
+ },
+ {
+  "id": "77_DS-16",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "SystemMonitor.execute_system_check",
+  "anon": "P002"
+ },
+ {
+  "id": "89_DS-12",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_books",
+  "anon": "P003"
+ },
+ {
+  "id": "22_DS-15",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "download_report",
+  "anon": "P004"
+ },
+ {
+  "id": "79_DS-7",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "ChatHandler.get",
+  "anon": "P005"
+ },
+ {
+  "id": "94_DS-2",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "filter_impl",
+  "anon": "P006"
+ },
+ {
+  "id": "77_DS-11",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "FileCompressor.compress_file",
+  "anon": "P007"
+ },
+ {
+  "id": "22_DS-3",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "ConfigManager.load_config",
+  "anon": "P008"
+ },
+ {
+  "id": "502_DS-13",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "NetworkManager._process_remote_config",
+  "anon": "P009"
+ },
+ {
+  "id": "22_DS-17",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "ConfigManager.load_config",
+  "anon": "P010"
+ },
+ {
+  "id": "94_DS-13",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "dynamic_filter",
+  "anon": "P011"
+ },
+ {
+  "id": "22_DS-12",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "get_image",
+  "anon": "P012"
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "GameSaveManager.load_game",
+  "anon": "P013"
+ },
+ {
+  "id": "79_DS-14",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "view_file",
+  "anon": "P014"
+ },
+ {
+  "id": "77_DS-9",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "DNSTool.custom_query",
+  "anon": "P015"
+ },
+ {
+  "id": "94_DS-9",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "RuleEngine.evaluate_rule",
+  "anon": "P016"
+ },
+ {
+  "id": "94_DS-20",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "direct_validate",
+  "anon": "P017"
+ },
+ {
+  "id": "502_DS-1",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "AnalyticsConfig.load_from_pickle",
+  "anon": "P018"
+ },
+ {
+  "id": "89_DS-20",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "ReportSystem.generate_report",
+  "anon": "P019"
+ },
+ {
+  "id": "22_DS-17",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "ConfigManager.load_config",
+  "anon": "P020"
+ },
+ {
+  "id": "89_DS-4",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_cases",
+  "anon": "P021"
+ },
+ {
+  "id": "79_DS-8",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "view_page",
+  "anon": "P022"
+ },
+ {
+  "id": "77_DS-20",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "SystemInfoTool.get_system_info",
+  "anon": "P023"
+ },
+ {
+  "id": "94_DS-14",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "execute_operation",
+  "anon": "P024"
+ },
+ {
+  "id": "502_DS-8",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "ModelServer.load_model",
+  "anon": "P025"
+ },
+ {
+  "id": "79_DS-17",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "Root.index",
+  "anon": "P026"
+ },
+ {
+  "id": "79_DS-16",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "GetNotificationsHandler.get",
+  "anon": "P027"
+ },
+ {
+  "id": "22_DS-9",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "DocumentArchiver.archive_document",
+  "anon": "P028"
+ },
+ {
+  "id": "22_DS-10",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "TemplateRenderer.render_template",
+  "anon": "P029"
+ },
+ {
+  "id": "79_DS-18",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "view_post",
+  "anon": "P030"
+ },
+ {
+  "id": "22_DS-7",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "LogManager.get_log_file",
+  "anon": "P031"
+ },
+ {
+  "id": "89_DS-4",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_cases",
+  "anon": "P032"
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "InventoryManager.process_custom_command",
+  "anon": "P033"
+ },
+ {
+  "id": "22_DS-13",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "download_document",
+  "anon": "P034"
+ },
+ {
+  "id": "77_DS-10",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "NetworkConfigurator.configure_kernel_param",
+  "anon": "P035"
+ },
+ {
+  "id": "502_DS-10",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "IoTDeviceManager.process_firmware_update",
+  "anon": "P036"
+ },
+ {
+  "id": "77_DS-18",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "VideoProcessor.process_video",
+  "anon": "P037"
+ },
+ {
+  "id": "89_DS-17",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_products",
+  "anon": "P038"
+ },
+ {
+  "id": "502_DS-14",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "TaskWorker._handle_client",
+  "anon": "P039"
+ },
+ {
+  "id": "77_DS-5",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "SystemMonitor.check_process",
+  "anon": "P040"
+ },
+ {
+  "id": "502_DS-6",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "TransactionProcessor.load_validation_rules",
+  "anon": "P041"
+ },
+ {
+  "id": "79_DS-11",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "view_post",
+  "anon": "P042"
+ },
+ {
+  "id": "79_DS-4",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "view_notifications_view",
+  "anon": "P043"
+ },
+ {
+  "id": "89_DS-19",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_comments",
+  "anon": "P044"
+ },
+ {
+  "id": "94_DS-1",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "add_item",
+  "anon": "P045"
+ },
+ {
+  "id": "22_DS-6",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "BackupManager.restore_backup",
+  "anon": "P046"
+ },
+ {
+  "id": "77_DS-17",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "WebsiteScreenshot.capture_website",
+  "anon": "P047"
+ },
+ {
+  "id": "22_DS-9",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "DocumentArchiver.archive_document",
+  "anon": "P048"
+ },
+ {
+  "id": "77_DS-14",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "NetworkDiagnosticTool.run_diagnostic",
+  "anon": "P049"
+ },
+ {
+  "id": "94_DS-17",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "evaluate_math",
+  "anon": "P050"
+ },
+ {
+  "id": "94_DS-9",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "RuleEngine.evaluate_rule",
+  "anon": "P051"
+ },
+ {
+  "id": "22_DS-16",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "download_log",
+  "anon": "P052"
+ },
+ {
+  "id": "502_DS-3",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "DeviceConfigManager.store_config",
+  "anon": "P053"
+ },
+ {
+  "id": "89_DS-7",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_rooms",
+  "anon": "P054"
+ },
+ {
+  "id": "89_DS-13",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_employees",
+  "anon": "P055"
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "AnalyticsService.load_config_from_file",
+  "anon": "P056"
+ },
+ {
+  "id": "502_DS-5",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "FileProcessor.load_processing_plugin",
+  "anon": "P057"
+ },
+ {
+  "id": "89_DS-12",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_books",
+  "anon": "P058"
+ },
+ {
+  "id": "502_DS-13",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "NetworkManager._process_remote_config",
+  "anon": "P059"
+ },
+ {
+  "id": "79_DS-20",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "SearchResource.on_get",
+  "anon": "P060"
+ },
+ {
+  "id": "89_DS-10",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_tickets",
+  "anon": "P061"
+ },
+ {
+  "id": "502_DS-10",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "IoTDeviceManager.process_firmware_update",
+  "anon": "P062"
+ },
+ {
+  "id": "77_DS-19",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "DNSLookupTool.perform_lookup",
+  "anon": "P063"
+ },
+ {
+  "id": "79_DS-9",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "dashboard",
+  "anon": "P064"
+ },
+ {
+  "id": "79_DS-12",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "SearchView.get",
+  "anon": "P065"
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "AnalyticsService.load_config_from_file",
+  "anon": "P066"
+ },
+ {
+  "id": "77_DS-12",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "ImageProcessor.apply_filter",
+  "anon": "P067"
+ },
+ {
+  "id": "22_DS-11",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "FileServerHandler.serve_file",
+  "anon": "P068"
+ },
+ {
+  "id": "22_DS-16",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "download_log",
+  "anon": "P069"
+ },
+ {
+  "id": "94_DS-19",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "evaluate_expression",
+  "anon": "P070"
+ },
+ {
+  "id": "94_DS-12",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "admin_actions",
+  "anon": "P071"
+ },
+ {
+  "id": "22_DS-14",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "restore_config",
+  "anon": "P072"
+ },
+ {
+  "id": "502_DS-4",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "TaskWorker._execute_task",
+  "anon": "P073"
+ },
+ {
+  "id": "89_DS-7",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_rooms",
+  "anon": "P074"
+ },
+ {
+  "id": "89_DS-18",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "LoginHandler.post",
+  "anon": "P075"
+ },
+ {
+  "id": "94_DS-15",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "verify_token",
+  "anon": "P076"
+ },
+ {
+  "id": "22_DS-14",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "restore_config",
+  "anon": "P077"
+ },
+ {
+  "id": "22_DS-1",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "FileServerHandler.serve_file",
+  "anon": "P078"
+ },
+ {
+  "id": "77_DS-15",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "DocumentConverter.convert_document",
+  "anon": "P079"
+ },
+ {
+  "id": "22_DS-18",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "stream_media",
+  "anon": "P080"
+ },
+ {
+  "id": "502_DS-15",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "CacheNode._handle_connection",
+  "anon": "P081"
+ },
+ {
+  "id": "22_DS-20",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "serve_theme_asset",
+  "anon": "P082"
+ },
+ {
+  "id": "89_DS-11",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_books",
+  "anon": "P083"
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "DocumentProcessor.load_serialized_document",
+  "anon": "P084"
+ },
+ {
+  "id": "94_DS-4",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "PricingEngine.calculate",
+  "anon": "P085"
+ },
+ {
+  "id": "22_DS-7",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "LogManager.get_log_file",
+  "anon": "P086"
+ },
+ {
+  "id": "94_DS-17",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "evaluate_math",
+  "anon": "P087"
+ },
+ {
+  "id": "89_DS-13",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_employees",
+  "anon": "P088"
+ },
+ {
+  "id": "94_DS-15",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "verify_token",
+  "anon": "P089"
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "PluginManager._load_compiled_plugin",
+  "anon": "P090"
+ },
+ {
+  "id": "89_DS-15",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_products",
+  "anon": "P091"
+ },
+ {
+  "id": "79_DS-6",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "create_post",
+  "anon": "P092"
+ },
+ {
+  "id": "77_DS-7",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "DocumentConverter.convert_file",
+  "anon": "P093"
+ },
+ {
+  "id": "79_DS-7",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "ChatHandler.get",
+  "anon": "P094"
+ },
+ {
+  "id": "94_DS-18",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "calculate_endpoint",
+  "anon": "P095"
+ },
+ {
+  "id": "77_DS-6",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "WebhookTester.test_curl_request",
+  "anon": "P096"
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "TransactionProcessor.load_transaction_batch",
+  "anon": "P097"
+ },
+ {
+  "id": "94_DS-2",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "filter_impl",
+  "anon": "P098"
+ },
+ {
+  "id": "79_DS-1",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "index",
+  "anon": "P099"
+ },
+ {
+  "id": "502_DS-1",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "AnalyticsConfig.load_from_pickle",
+  "anon": "P100"
+ },
+ {
+  "id": "22_DS-8",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "ReportGenerator.load_template",
+  "anon": "P101"
+ },
+ {
+  "id": "22_DS-11",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "FileServerHandler.serve_file",
+  "anon": "P102"
+ },
+ {
+  "id": "77_DS-11",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "FileCompressor.compress_file",
+  "anon": "P103"
+ },
+ {
+  "id": "502_DS-5",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "FileProcessor.load_processing_plugin",
+  "anon": "P104"
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "PluginManager._load_compiled_plugin",
+  "anon": "P105"
+ },
+ {
+  "id": "77_DS-2",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "NetworkDiagnostics.trace_route",
+  "anon": "P106"
+ },
+ {
+  "id": "502_DS-2",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "update_config",
+  "anon": "P107"
+ },
+ {
+  "id": "77_DS-20",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "SystemInfoTool.get_system_info",
+  "anon": "P108"
+ },
+ {
+  "id": "77_DS-18",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "VideoProcessor.process_video",
+  "anon": "P109"
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "HomeAutomationHub.import_device_config",
+  "anon": "P110"
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "MedicalRecordSystem.import_records",
+  "anon": "P111"
+ },
+ {
+  "id": "89_DS-2",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "get_employee_by_filter",
+  "anon": "P112"
+ },
+ {
+  "id": "77_DS-13",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "DatabaseBackupTool.create_backup",
+  "anon": "P113"
+ },
+ {
+  "id": "79_DS-5",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "FeedbackApp.view",
+  "anon": "P114"
+ },
+ {
+  "id": "94_DS-12",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "admin_actions",
+  "anon": "P115"
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "DocumentProcessor.load_serialized_document",
+  "anon": "P116"
+ },
+ {
+  "id": "502_DS-2",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "update_config",
+  "anon": "P117"
+ },
+ {
+  "id": "89_DS-16",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_users_view",
+  "anon": "P118"
+ },
+ {
+  "id": "89_DS-1",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_product",
+  "anon": "P119"
+ },
+ {
+  "id": "89_DS-14",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_users",
+  "anon": "P120"
+ },
+ {
+  "id": "79_DS-2",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "ProfileView.get",
+  "anon": "P121"
+ },
+ {
+  "id": "89_DS-1",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_product",
+  "anon": "P122"
+ },
+ {
+  "id": "502_DS-8",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "ModelServer.load_model",
+  "anon": "P123"
+ },
+ {
+  "id": "94_DS-16",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "DynamicTemplateRenderer._compile_template",
+  "anon": "P124"
+ },
+ {
+  "id": "77_DS-10",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "NetworkConfigurator.configure_kernel_param",
+  "anon": "P125"
+ },
+ {
+  "id": "89_DS-5",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "get_user_posts",
+  "anon": "P126"
+ },
+ {
+  "id": "22_DS-13",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "download_document",
+  "anon": "P127"
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "InventoryManager.process_custom_command",
+  "anon": "P128"
+ },
+ {
+  "id": "502_DS-4",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "TaskWorker._execute_task",
+  "anon": "P129"
+ },
+ {
+  "id": "502_DS-7",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "DataAnalyzer.load_analysis_module",
+  "anon": "P130"
+ },
+ {
+  "id": "502_DS-14",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "TaskWorker._handle_client",
+  "anon": "P131"
+ },
+ {
+  "id": "77_DS-5",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "SystemMonitor.check_process",
+  "anon": "P132"
+ },
+ {
+  "id": "89_DS-3",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_products",
+  "anon": "P133"
+ },
+ {
+  "id": "94_DS-14",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "execute_operation",
+  "anon": "P134"
+ },
+ {
+  "id": "94_DS-8",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "ResponseProcessor.process_response",
+  "anon": "P135"
+ },
+ {
+  "id": "502_DS-9",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "CacheNode.store_data",
+  "anon": "P136"
+ },
+ {
+  "id": "89_DS-14",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_users",
+  "anon": "P137"
+ },
+ {
+  "id": "94_DS-7",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "WorkflowEngine.execute_step",
+  "anon": "P138"
+ },
+ {
+  "id": "79_DS-18",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "view_post",
+  "anon": "P139"
+ },
+ {
+  "id": "94_DS-20",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "direct_validate",
+  "anon": "P140"
+ },
+ {
+  "id": "77_DS-8",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "VideoProcessor.process_video",
+  "anon": "P141"
+ },
+ {
+  "id": "22_DS-5",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "generate_thumbnail",
+  "anon": "P142"
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "MedicalRecordSystem.import_records",
+  "anon": "P143"
+ },
+ {
+  "id": "79_DS-10",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "ReportResource.on_get",
+  "anon": "P144"
+ },
+ {
+  "id": "89_DS-2",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "get_employee_by_filter",
+  "anon": "P145"
+ },
+ {
+  "id": "79_DS-1",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "index",
+  "anon": "P146"
+ },
+ {
+  "id": "77_DS-4",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "DatabaseManager.create_backup",
+  "anon": "P147"
+ },
+ {
+  "id": "94_DS-6",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "ConfigManager.apply_config",
+  "anon": "P148"
+ },
+ {
+  "id": "79_DS-15",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "login_view",
+  "anon": "P149"
+ },
+ {
+  "id": "22_DS-15",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "download_report",
+  "anon": "P150"
+ },
+ {
+  "id": "22_DS-6",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "BackupManager.restore_backup",
+  "anon": "P151"
+ },
+ {
+  "id": "94_DS-5",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "ReportGenerator.generate_report",
+  "anon": "P152"
+ },
+ {
+  "id": "89_DS-18",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "LoginHandler.post",
+  "anon": "P153"
+ },
+ {
+  "id": "89_DS-17",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_products",
+  "anon": "P154"
+ },
+ {
+  "id": "79_DS-15",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "login_view",
+  "anon": "P155"
+ },
+ {
+  "id": "89_DS-6",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "AccountHandler.get",
+  "anon": "P156"
+ },
+ {
+  "id": "79_DS-10",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "ReportResource.on_get",
+  "anon": "P157"
+ },
+ {
+  "id": "79_DS-20",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "SearchResource.on_get",
+  "anon": "P158"
+ },
+ {
+  "id": "94_DS-6",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "ConfigManager.apply_config",
+  "anon": "P159"
+ },
+ {
+  "id": "502_DS-3",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "DeviceConfigManager.store_config",
+  "anon": "P160"
+ },
+ {
+  "id": "79_DS-16",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "GetNotificationsHandler.get",
+  "anon": "P161"
+ },
+ {
+  "id": "89_DS-9",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_patient_records",
+  "anon": "P162"
+ },
+ {
+  "id": "94_DS-10",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "DataTransformer.transform",
+  "anon": "P163"
+ },
+ {
+  "id": "94_DS-5",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "ReportGenerator.generate_report",
+  "anon": "P164"
+ },
+ {
+  "id": "79_DS-13",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "profile",
+  "anon": "P165"
+ },
+ {
+  "id": "94_DS-10",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "DataTransformer.transform",
+  "anon": "P166"
+ },
+ {
+  "id": "22_DS-4",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "DocumentManager.get_document",
+  "anon": "P167"
+ },
+ {
+  "id": "79_DS-12",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "SearchView.get",
+  "anon": "P168"
+ },
+ {
+  "id": "79_DS-19",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "view_profile",
+  "anon": "P169"
+ },
+ {
+  "id": "79_DS-4",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "view_notifications_view",
+  "anon": "P170"
+ },
+ {
+  "id": "77_DS-2",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "NetworkDiagnostics.trace_route",
+  "anon": "P171"
+ },
+ {
+  "id": "22_DS-2",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "download_image",
+  "anon": "P172"
+ },
+ {
+  "id": "77_DS-4",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "DatabaseManager.create_backup",
+  "anon": "P173"
+ },
+ {
+  "id": "77_DS-9",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "DNSTool.custom_query",
+  "anon": "P174"
+ },
+ {
+  "id": "77_DS-15",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "DocumentConverter.convert_document",
+  "anon": "P175"
+ },
+ {
+  "id": "77_DS-16",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "SystemMonitor.execute_system_check",
+  "anon": "P176"
+ },
+ {
+  "id": "22_DS-12",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "get_image",
+  "anon": "P177"
+ },
+ {
+  "id": "502_DS-9",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "CacheNode.store_data",
+  "anon": "P178"
+ },
+ {
+  "id": "79_DS-3",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "read_notes",
+  "anon": "P179"
+ },
+ {
+  "id": "89_DS-19",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_comments",
+  "anon": "P180"
+ },
+ {
+  "id": "94_DS-7",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "WorkflowEngine.execute_step",
+  "anon": "P181"
+ },
+ {
+  "id": "22_DS-8",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "ReportGenerator.load_template",
+  "anon": "P182"
+ },
+ {
+  "id": "77_DS-8",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "VideoProcessor.process_video",
+  "anon": "P183"
+ },
+ {
+  "id": "94_DS-13",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "dynamic_filter",
+  "anon": "P184"
+ },
+ {
+  "id": "502_DS-7",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "DataAnalyzer.load_analysis_module",
+  "anon": "P185"
+ },
+ {
+  "id": "79_DS-17",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "Root.index",
+  "anon": "P186"
+ },
+ {
+  "id": "94_DS-3",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "TemplateHandler.post",
+  "anon": "P187"
+ },
+ {
+  "id": "22_DS-2",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "download_image",
+  "anon": "P188"
+ },
+ {
+  "id": "77_DS-12",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "ImageProcessor.apply_filter",
+  "anon": "P189"
+ },
+ {
+  "id": "89_DS-20",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "ReportSystem.generate_report",
+  "anon": "P190"
+ },
+ {
+  "id": "22_DS-18",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "stream_media",
+  "anon": "P191"
+ },
+ {
+  "id": "89_DS-10",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_tickets",
+  "anon": "P192"
+ },
+ {
+  "id": "94_DS-8",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "ResponseProcessor.process_response",
+  "anon": "P193"
+ },
+ {
+  "id": "89_DS-5",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "get_user_posts",
+  "anon": "P194"
+ },
+ {
+  "id": "77_DS-17",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "WebsiteScreenshot.capture_website",
+  "anon": "P195"
+ },
+ {
+  "id": "77_DS-14",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "NetworkDiagnosticTool.run_diagnostic",
+  "anon": "P196"
+ },
+ {
+  "id": "77_DS-13",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "DatabaseBackupTool.create_backup",
+  "anon": "P197"
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "cwe": 502,
+  "vul_position": "HomeAutomationHub.import_device_config",
+  "anon": "P198"
+ },
+ {
+  "id": "77_DS-19",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "DNSLookupTool.perform_lookup",
+  "anon": "P199"
+ },
+ {
+  "id": "502_DS-15",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "CacheNode._handle_connection",
+  "anon": "P200"
+ },
+ {
+  "id": "77_DS-1",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "FileManager.search_files",
+  "anon": "P201"
+ },
+ {
+  "id": "89_DS-15",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_products",
+  "anon": "P202"
+ },
+ {
+  "id": "94_DS-18",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "calculate_endpoint",
+  "anon": "P203"
+ },
+ {
+  "id": "89_DS-16",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_users_view",
+  "anon": "P204"
+ },
+ {
+  "id": "22_DS-10",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "TemplateRenderer.render_template",
+  "anon": "P205"
+ },
+ {
+  "id": "77_DS-7",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "DocumentConverter.convert_file",
+  "anon": "P206"
+ },
+ {
+  "id": "22_DS-20",
+  "kind": "safe",
+  "cwe": 22,
+  "vul_position": "serve_theme_asset",
+  "anon": "P207"
+ },
+ {
+  "id": "502_DS-6",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "TransactionProcessor.load_validation_rules",
+  "anon": "P208"
+ },
+ {
+  "id": "22_DS-4",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "DocumentManager.get_document",
+  "anon": "P209"
+ },
+ {
+  "id": "22_DS-19",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "extract_archive",
+  "anon": "P210"
+ },
+ {
+  "id": "79_DS-8",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "view_page",
+  "anon": "P211"
+ },
+ {
+  "id": "22_DS-1",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "FileServerHandler.serve_file",
+  "anon": "P212"
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "GameSaveManager.load_game",
+  "anon": "P213"
+ },
+ {
+  "id": "77_DS-6",
+  "kind": "vuln",
+  "cwe": 77,
+  "vul_position": "WebhookTester.test_curl_request",
+  "anon": "P214"
+ },
+ {
+  "id": "79_DS-5",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "FeedbackApp.view",
+  "anon": "P215"
+ },
+ {
+  "id": "89_DS-8",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "LibrarySystem.search_books",
+  "anon": "P216"
+ },
+ {
+  "id": "89_DS-6",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "AccountHandler.get",
+  "anon": "P217"
+ },
+ {
+  "id": "79_DS-11",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "view_post",
+  "anon": "P218"
+ },
+ {
+  "id": "89_DS-8",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "LibrarySystem.search_books",
+  "anon": "P219"
+ },
+ {
+  "id": "89_DS-9",
+  "kind": "vuln",
+  "cwe": 89,
+  "vul_position": "search_patient_records",
+  "anon": "P220"
+ },
+ {
+  "id": "89_DS-3",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_products",
+  "anon": "P221"
+ },
+ {
+  "id": "94_DS-16",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "DynamicTemplateRenderer._compile_template",
+  "anon": "P222"
+ },
+ {
+  "id": "79_DS-19",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "view_profile",
+  "anon": "P223"
+ },
+ {
+  "id": "79_DS-3",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "read_notes",
+  "anon": "P224"
+ },
+ {
+  "id": "94_DS-1",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "add_item",
+  "anon": "P225"
+ },
+ {
+  "id": "77_DS-3",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "LogAnalyzer.search_logs",
+  "anon": "P226"
+ },
+ {
+  "id": "79_DS-2",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "ProfileView.get",
+  "anon": "P227"
+ },
+ {
+  "id": "79_DS-9",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "dashboard",
+  "anon": "P228"
+ },
+ {
+  "id": "79_DS-6",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "create_post",
+  "anon": "P229"
+ },
+ {
+  "id": "94_DS-4",
+  "kind": "safe",
+  "cwe": 94,
+  "vul_position": "PricingEngine.calculate",
+  "anon": "P230"
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "cwe": 502,
+  "vul_position": "TransactionProcessor.load_transaction_batch",
+  "anon": "P231"
+ },
+ {
+  "id": "94_DS-3",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "TemplateHandler.post",
+  "anon": "P232"
+ },
+ {
+  "id": "22_DS-3",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "ConfigManager.load_config",
+  "anon": "P233"
+ },
+ {
+  "id": "94_DS-19",
+  "kind": "vuln",
+  "cwe": 94,
+  "vul_position": "evaluate_expression",
+  "anon": "P234"
+ },
+ {
+  "id": "89_DS-11",
+  "kind": "safe",
+  "cwe": 89,
+  "vul_position": "search_books",
+  "anon": "P235"
+ },
+ {
+  "id": "79_DS-14",
+  "kind": "safe",
+  "cwe": 79,
+  "vul_position": "view_file",
+  "anon": "P236"
+ },
+ {
+  "id": "79_DS-13",
+  "kind": "vuln",
+  "cwe": 79,
+  "vul_position": "profile",
+  "anon": "P237"
+ },
+ {
+  "id": "77_DS-1",
+  "kind": "safe",
+  "cwe": 77,
+  "vul_position": "FileManager.search_files",
+  "anon": "P238"
+ },
+ {
+  "id": "22_DS-5",
+  "kind": "vuln",
+  "cwe": 22,
+  "vul_position": "generate_thumbnail",
+  "anon": "P239"
+ }
+]

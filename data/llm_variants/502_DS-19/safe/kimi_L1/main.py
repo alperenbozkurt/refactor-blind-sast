@@ -1,0 +1,237 @@
+"""Simple game-save system with an interactive command-line client.
+
+Provides the GameState model, a GameSaveManager for persisting and
+verifying save files, and a GameClient that drives the CLI.
+"""
+
+import hashlib
+import json
+import os
+from datetime import datetime
+from typing import Dict, List, Optional
+
+_SAVE_DIR = 'game_saves'
+_DEFAULT_VERSION = '1.0'
+_DEFAULT_STATS = {'level': 1, 'experience': 0, 'health': 100, 'gold': 50}
+_REQUIRED_SAVE_FIELDS = ['player_id', 'stats', 'timestamp', 'checksum']
+_MENU = (
+    '\n1. Start new game\n'
+    '2. Save current game\n'
+    '3. Load game\n'
+    '4. Import save file\n'
+    '5. View game state\n'
+    '6. Exit'
+)
+
+
+class GameState:
+    """The complete state of a single player's game."""
+
+    def __init__(self, player_id: str):
+        self.player_id = player_id
+        self.characters: Dict[str, Dict] = {}
+        self.inventory: List[str] = []
+        self.quests: Dict[str, Dict] = {}
+        self.stats: Dict[str, int] = dict(_DEFAULT_STATS)
+        self.timestamp = datetime.now()
+        self.version = _DEFAULT_VERSION
+        self.checksum = self._calculate_checksum()
+
+    def _calculate_checksum(self) -> str:
+        """Return a checksum over the player id, stats and timestamp."""
+        data = f'{self.player_id}{self.stats}{self.timestamp}'
+        return hashlib.sha256(data.encode()).hexdigest()
+
+    def add_item(self, item_id: str) -> None:
+        """Add an item to the inventory."""
+        self.inventory.append(item_id)
+        self._update_state()
+
+    def complete_quest(self, quest_id: str) -> None:
+        """Mark a known quest as completed."""
+        if quest_id in self.quests:
+            self.quests[quest_id]['completed'] = True
+            self._update_state()
+
+    def _update_state(self) -> None:
+        self.timestamp = datetime.now()
+        self.checksum = self._calculate_checksum()
+
+    def to_dict(self) -> Dict:
+        """Serialize the state to a JSON-compatible dictionary."""
+        return {
+            'player_id': self.player_id,
+            'characters': self.characters,
+            'inventory': self.inventory,
+            'quests': self.quests,
+            'stats': self.stats,
+            'timestamp': self.timestamp.isoformat(),
+            'version': self.version,
+            'checksum': self.checksum,
+        }
+
+    @classmethod
+    def from_dict(cls, data: Dict) -> 'GameState':
+        """Rebuild a GameState from a dictionary produced by to_dict()."""
+        game_state = cls(data['player_id'])
+        game_state.characters = data.get('characters', {})
+        game_state.inventory = data.get('inventory', [])
+        game_state.quests = data.get('quests', {})
+        game_state.stats = data.get('stats', {})
+        timestamp = data.get('timestamp', datetime.now().isoformat())
+        game_state.timestamp = datetime.fromisoformat(timestamp)
+        game_state.version = data.get('version', _DEFAULT_VERSION)
+        game_state.checksum = data.get('checksum', '')
+        return game_state
+
+
+class GameSaveManager:
+    """Saves, loads and verifies game states, keeping an audit log."""
+
+    def __init__(self):
+        self.saves_dir = _SAVE_DIR
+        os.makedirs(self.saves_dir, exist_ok=True)
+        self.audit_log: List[Dict] = []
+        self.loaded_saves: Dict[str, GameState] = {}
+
+    def save_game(self, game_state: GameState) -> bool:
+        """Write the game state to the player's save file."""
+        try:
+            save_data = game_state.to_dict()
+            path = self._save_path(game_state.player_id)
+            with open(path, 'w', encoding='utf-8') as save_file:
+                json.dump(save_data, save_file)
+            self._log_audit('SAVE_SUCCESS', game_state.player_id)
+            return True
+        except Exception as e:
+            self._log_audit('SAVE_FAILED', str(e))
+            return False
+
+    def load_game(self, player_id: str) -> Optional[GameState]:
+        """Load and verify the save file for the given player, if it exists."""
+        try:
+            path = self._save_path(player_id)
+            if not os.path.exists(path):
+                return None
+            with open(path, 'r', encoding='utf-8') as save_file:
+                save_data = json.load(save_file)
+            return self._validate_and_reconstruct(save_data)
+        except Exception as e:
+            self._log_audit('LOAD_FAILED', str(e))
+            return None
+
+    def _save_path(self, player_id: str) -> str:
+        """Return the save-file path for the given player."""
+        return os.path.join(self.saves_dir, f'{player_id}.sav')
+
+    def _validate_and_reconstruct(self, save_data: Dict) -> Optional[GameState]:
+        """Validate save data structure and checksum, then rebuild the state."""
+        if not isinstance(save_data, dict):
+            raise ValueError('Invalid save data format')
+        if not all(field in save_data for field in _REQUIRED_SAVE_FIELDS):
+            raise ValueError('Missing required fields in save data')
+        game_state = GameState.from_dict(save_data)
+        if game_state.checksum != game_state._calculate_checksum():
+            self._log_audit('CHECKSUM_MISMATCH', game_state.player_id)
+            raise ValueError('Checksum verification failed')
+        self.loaded_saves[game_state.player_id] = game_state
+        self._log_audit('LOAD_SUCCESS', game_state.player_id)
+        return game_state
+
+    def import_save_file(self, file_path: str) -> Optional[GameState]:
+        """Load and verify a save file from an arbitrary path."""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as save_file:
+                save_data = json.load(save_file)
+            return self._validate_and_reconstruct(save_data)
+        except Exception as e:
+            self._log_audit('IMPORT_FAILED', str(e))
+            return None
+
+    def _log_audit(self, event_type: str, details: str) -> None:
+        self.audit_log.append({
+            'timestamp': datetime.now(),
+            'event_type': event_type,
+            'details': details,
+        })
+
+    def get_recent_audit_logs(self, count: int = 5) -> List[Dict]:
+        """Return the most recent audit log entries."""
+        return self.audit_log[-count:]
+
+
+class GameClient:
+    """Interactive client wrapping a GameSaveManager."""
+
+    def __init__(self):
+        self.save_manager = GameSaveManager()
+        self.current_game: Optional[GameState] = None
+
+    def start_new_game(self, player_id: str) -> None:
+        self.current_game = GameState(player_id)
+        print(f'New game started for player {player_id}')
+
+    def save_current_game(self) -> None:
+        if self.current_game is None:
+            return
+        if self.save_manager.save_game(self.current_game):
+            print('Game saved successfully')
+        else:
+            print('Failed to save game')
+
+    def load_game(self, player_id: str) -> None:
+        game_state = self.save_manager.load_game(player_id)
+        if game_state is not None:
+            self.current_game = game_state
+            print(f'Loaded game for player {player_id}')
+        else:
+            print(f'No save found for player {player_id}')
+
+    def import_save(self, file_path: str) -> None:
+        game_state = self.save_manager.import_save_file(file_path)
+        if game_state is not None:
+            self.current_game = game_state
+            print(f'Imported save for player {game_state.player_id}')
+        else:
+            print('Failed to import save file')
+
+    def display_game_state(self) -> None:
+        if self.current_game is None:
+            print('No game loaded')
+            return
+        game = self.current_game
+        print(f'\nPlayer: {game.player_id}')
+        print(f"Level: {game.stats['level']}")
+        print(f"Gold: {game.stats['gold']}")
+        print(f'Inventory: {len(game.inventory)} items')
+        print(f'Last saved: {game.timestamp}')
+
+
+def main():
+    """Run the interactive game client menu loop."""
+    client = GameClient()
+    print('Game Client')
+    while True:
+        print(_MENU)
+        choice = input('Select option: ')
+        if choice == '1':
+            player_id = input('Enter player ID: ')
+            client.start_new_game(player_id)
+        elif choice == '2':
+            client.save_current_game()
+        elif choice == '3':
+            player_id = input('Enter player ID to load: ')
+            client.load_game(player_id)
+        elif choice == '4':
+            file_path = input('Enter save file path: ')
+            client.import_save(file_path)
+        elif choice == '5':
+            client.display_game_state()
+        elif choice == '6':
+            break
+        else:
+            print('Invalid option')
+
+
+if __name__ == '__main__':
+    main()

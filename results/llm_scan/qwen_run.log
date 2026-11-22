@@ -1,0 +1,274 @@
+[1/237] P003  21.3s flagged=True
+[2/237] P004  11.1s flagged=False
+[3/237] P005  11.8s flagged=True
+[4/237] P006  15.0s flagged=True
+[5/237] P007   8.9s flagged=True
+[6/237] P008  10.1s flagged=False
+[7/237] P009  11.7s flagged=True
+[8/237] P010  11.2s flagged=False
+[9/237] P011   7.5s flagged=False
+[10/237] P012   6.0s flagged=False
+[11/237] P013  24.1s flagged=True
+[12/237] P014  20.9s flagged=True
+[13/237] P015  11.2s flagged=True
+[14/237] P016   9.0s flagged=True
+Traceback (most recent call last):
+  File "src/llm_scan.py", line 110, in <module>
+    main()
+  File "src/llm_scan.py", line 92, in main
+    text, secs, n_out, n_in = ask(model, code)
+  File "src/llm_scan.py", line 42, in ask
+    r = json.loads(urllib.request.urlopen(req, timeout=900).read())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+[1/223] P017 110.0s flagged=None
+[2/223] P018  10.1s flagged=True
+[3/223] P019  11.4s flagged=True
+[4/223] P020  20.7s flagged=False
+[5/223] P021  14.0s flagged=True
+[6/223] P022  22.2s flagged=True
+[7/223] P023  10.5s flagged=True
+[8/223] P024  12.7s flagged=True
+[9/223] P025  24.3s flagged=False
+[10/223] P026   6.2s flagged=False
+[11/223] P027   9.7s flagged=False
+[12/223] P028  18.2s flagged=False
+[13/223] P029   7.8s flagged=False
+[14/223] P030  15.6s flagged=False
+[15/223] P031   9.2s flagged=False
+[16/223] P032  12.1s flagged=True
+[17/223] P033   8.9s flagged=True
+[18/223] P034   6.9s flagged=False
+[19/223] P035  15.1s flagged=True
+[20/223] P036  46.1s flagged=False
+[21/223] P037  13.4s flagged=True
+[22/223] P038  11.3s flagged=True
+[23/223] P039  18.2s flagged=True
+[24/223] P040  20.9s flagged=True
+[25/223] P041  16.2s flagged=True
+[26/223] P042  21.6s flagged=False
+[27/223] P043   9.9s flagged=True
+[28/223] P044  18.6s flagged=False
+[29/223] P045  21.8s flagged=True
+[30/223] P046  25.2s flagged=False
+[31/223] P047  18.0s flagged=True
+[32/223] P048  21.4s flagged=False
+[33/223] P049  10.2s flagged=True
+[34/223] P050  19.7s flagged=True
+[35/223] P051  20.3s flagged=True
+[36/223] P052  12.7s flagged=False
+[37/223] P053  31.6s flagged=False
+[38/223] P054  21.3s flagged=True
+[39/223] P055  10.8s flagged=True
+[40/223] P056   8.5s flagged=True
+[41/223] P057   9.6s flagged=True
+[42/223] P058  16.7s flagged=True
+[43/223] P059  23.0s flagged=False
+[44/223] P060   8.3s flagged=False
+[45/223] P061  12.9s flagged=True
+[46/223] P062  17.1s flagged=True
+[47/223] P063   9.5s flagged=True
+[48/223] P064  11.5s flagged=True
+[49/223] P065  27.6s flagged=True
+[50/223] P066   7.4s flagged=False
+[51/223] P067   7.8s flagged=True
+[52/223] P068   6.4s flagged=False
+[53/223] P069   7.9s flagged=False
+[54/223] P070  56.4s flagged=True
+[55/223] P071  10.6s flagged=True
+[56/223] P072  18.9s flagged=False
+[57/223] P073  17.5s flagged=False
+[58/223] P074  12.2s flagged=True
+[59/223] P075   8.9s flagged=True
+[60/223] P076  16.6s flagged=True
+[61/223] P077   7.8s flagged=False
+[62/223] P078   7.2s flagged=False
+[63/223] P079   9.7s flagged=True
+[64/223] P080  13.9s flagged=False
+[65/223] P081  14.7s flagged=True
+[66/223] P082  20.0s flagged=False
+[67/223] P083  11.8s flagged=True
+[68/223] P084   6.4s flagged=False
+[69/223] P085   8.5s flagged=True
+[70/223] P086  19.2s flagged=False
+[71/223] P087   8.8s flagged=False
+[72/223] P088   8.6s flagged=True
+[73/223] P089  18.3s flagged=False
+[74/223] P090  12.7s flagged=True
+[75/223] P091  11.4s flagged=True
+[76/223] P092   9.6s flagged=True
+[77/223] P093   9.6s flagged=True
+[78/223] P094   6.8s flagged=False
+[79/223] P095   9.9s flagged=False
+[80/223] P096  14.5s flagged=True
+[81/223] P097  12.3s flagged=True
+[82/223] P098   8.1s flagged=True
+[83/223] P099   3.7s flagged=False
+[84/223] P100   7.7s flagged=True
+[85/223] P101   9.7s flagged=False
+[86/223] P102   8.0s flagged=False
+[87/223] P103   7.4s flagged=True
+[88/223] P104  29.1s flagged=False
+[89/223] P105  29.5s flagged=False
+[90/223] P106  18.0s flagged=True
+[91/223] P107  17.7s flagged=False
+[92/223] P108  24.3s flagged=True
+[93/223] P109  11.0s flagged=True
+[94/223] P110  22.0s flagged=False
+[95/223] P111  25.1s flagged=False
+[96/223] P112  30.9s flagged=True
+[97/223] P113  12.5s flagged=True
+[98/223] P114   8.1s flagged=False
+[99/223] P115   5.3s flagged=False
+[100/223] P116   9.4s flagged=True
+[101/223] P117  14.0s flagged=False
+[102/223] P118   9.1s flagged=True
+[103/223] P119   8.7s flagged=True
+[104/223] P120  11.6s flagged=True
+[105/223] P121   5.4s flagged=False
+[106/223] P122   7.3s flagged=False
+[107/223] P123  12.9s flagged=True
+[108/223] P124  15.4s flagged=True
+[109/223] P125  18.7s flagged=True
+[110/223] P126  22.9s flagged=True
+[111/223] P127  10.7s flagged=False
+[112/223] P128   6.7s flagged=False
+[113/223] P129  15.8s flagged=True
+[114/223] P130  15.9s flagged=False
+[115/223] P131  26.8s flagged=False
+[116/223] P132   9.6s flagged=True
+[117/223] P133  16.3s flagged=True
+[118/223] P134  21.6s flagged=False
+[119/223] P135   9.3s flagged=False
+[120/223] P136  31.8s flagged=True
+[121/223] P137  11.0s flagged=True
+[122/223] P138   8.9s flagged=True
+[123/223] P139  12.0s flagged=False
+[124/223] P140  14.9s flagged=True
+[125/223] P141  17.9s flagged=True
+[126/223] P142   7.4s flagged=False
+[127/223] P143  12.3s flagged=True
+[128/223] P144   7.0s flagged=False
+[129/223] P145   8.6s flagged=True
+[130/223] P146   8.0s flagged=True
+[131/223] P147  13.4s flagged=True
+[132/223] P148  23.8s flagged=True
+[133/223] P149   7.8s flagged=False
+[134/223] P150  16.7s flagged=False
+[135/223] P151   8.8s flagged=False
+[136/223] P152   4.7s flagged=False
+[137/223] P153  20.8s flagged=True
+[138/223] P154  11.1s flagged=True
+[139/223] P155  17.4s flagged=True
+[140/223] P156  24.4s flagged=True
+[141/223] P157  10.8s flagged=True
+[142/223] P158   6.6s flagged=False
+[143/223] P159   7.7s flagged=True
+[144/223] P160  18.2s flagged=True
+[145/223] P161  14.9s flagged=True
+[146/223] P162  22.6s flagged=True
+[147/223] P163  21.3s flagged=True
+[148/223] P164   7.3s flagged=True
+[149/223] P165   8.3s flagged=False
+[150/223] P166   8.5s flagged=True
+[151/223] P167   5.4s flagged=False
+[152/223] P168   5.6s flagged=False
+[153/223] P169  11.0s flagged=False
+[154/223] P170   5.3s flagged=False
+[155/223] P171  12.0s flagged=True
+[156/223] P172   3.7s flagged=False
+[157/223] P173  15.4s flagged=True
+[158/223] P174   9.8s flagged=True
+[159/223] P175  10.4s flagged=True
+[160/223] P176   9.5s flagged=True
+[161/223] P177  13.9s flagged=False
+[162/223] P178  43.5s flagged=False
+[163/223] P179   8.1s flagged=False
+[164/223] P180  17.3s flagged=True
+[165/223] P181  15.8s flagged=True
+[166/223] P182  15.8s flagged=False
+[167/223] P183  16.4s flagged=True
+[168/223] P184  10.3s flagged=True
+[169/223] P185  12.6s flagged=True
+[170/223] P186   8.9s flagged=False
+[171/223] P187   3.4s flagged=False
+[172/223] P188   8.6s flagged=False
+[173/223] P189   8.1s flagged=True
+[174/223] P190  10.6s flagged=True
+[175/223] P191  10.1s flagged=False
+[176/223] P192  16.7s flagged=True
+[177/223] P193   7.3s flagged=True
+[178/223] P194  13.0s flagged=True
+[179/223] P195   9.1s flagged=True
+[180/223] P196   6.9s flagged=False
+[181/223] P197  16.1s flagged=True
+[182/223] P198  19.1s flagged=True
+[183/223] P199  11.9s flagged=True
+[184/223] P200  25.9s flagged=False
+[185/223] P201   9.3s flagged=True
+[186/223] P202  17.5s flagged=False
+[187/223] P203  15.5s flagged=True
+[188/223] P204  16.7s flagged=True
+[189/223] P205  17.9s flagged=False
+[190/223] P206   9.6s flagged=True
+[191/223] P207   9.4s flagged=False
+[192/223] P208  11.0s flagged=False
+[193/223] P209   4.2s flagged=False
+[194/223] P210  12.5s flagged=False
+[195/223] P211   8.4s flagged=False
+[196/223] P212   6.9s flagged=False
+[197/223] P213  10.9s flagged=False
+[198/223] P214  13.4s flagged=True
+[199/223] P215   9.2s flagged=False
+[200/223] P216  11.3s flagged=False
+[201/223] P217  15.8s flagged=True
+[202/223] P218   6.5s flagged=False
+[203/223] P219  12.4s flagged=True
+[204/223] P220  11.4s flagged=True
+[205/223] P221  19.4s flagged=True
+[206/223] P222  10.8s flagged=True
+[207/223] P223  12.1s flagged=False
+[208/223] P224   9.9s flagged=True
+[209/223] P225  17.6s flagged=True
+[210/223] P226   9.7s flagged=True
+[211/223] P227  15.1s flagged=True
+[212/223] P228   8.0s flagged=False
+[213/223] P229  10.0s flagged=True
+[214/223] P230   6.1s flagged=False
+[215/223] P231  31.0s flagged=False
+[216/223] P232   6.8s flagged=True
+[217/223] P233  11.5s flagged=False
+[218/223] P234  16.3s flagged=True
+[219/223] P235   9.0s flagged=False
+[220/223] P236  20.0s flagged=True
+[221/223] P237  20.1s flagged=True
+[222/223] P238  14.0s flagged=True
+[223/223] P239  18.2s flagged=False
+
+qwen2.5-coder:14b: 240/240 programs, parse failures 1
+CWE 22   vulnerable flagged   0/20  (located   0) | fixed flagged   0/20  (any finding   3)
+CWE 77   vulnerable flagged  20/20  (located  20) | fixed flagged  19/20  (any finding  19)
+CWE 79   vulnerable flagged  14/20  (located  10) | fixed flagged   2/20  (any finding   2)
+CWE 89   vulnerable flagged  20/20  (located  20) | fixed flagged  15/20  (any finding  17)
+CWE 94   vulnerable flagged  20/20  (located  20) | fixed flagged   8/19  (any finding  11)
+CWE 502  vulnerable flagged  19/20  (located  19) | fixed flagged   1/20  (any finding  17)
+CWE all  vulnerable flagged  93/120 (located  89) | fixed flagged  45/119 (any finding  69)

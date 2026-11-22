@@ -1,0 +1,48 @@
+scan sonnet base: 0 done, 720 to do, spent so far $0.00
+   scan sonnet base: 20/720  $0.19  ~14 min left
+   scan sonnet base: 40/720  $0.40  ~13 min left
+   scan sonnet base: 60/720  $0.63  ~13 min left
+   scan sonnet base: 80/720  $0.85  ~13 min left
+   scan sonnet base: 100/720  $1.06  ~13 min left
+   scan sonnet base: 120/720  $1.26  ~12 min left
+   scan sonnet base: 140/720  $1.46  ~12 min left
+   scan sonnet base: 160/720  $1.70  ~11 min left
+   scan sonnet base: 180/720  $1.90  ~11 min left
+   scan sonnet base: 200/720  $2.13  ~10 min left
+   scan sonnet base: 220/720  $2.40  ~10 min left
+   scan sonnet base: 240/720  $2.63  ~10 min left
+   scan sonnet base: 260/720  $2.83  ~9 min left
+   scan sonnet base: 280/720  $3.05  ~9 min left
+   scan sonnet base: 300/720  $3.27  ~8 min left
+   scan sonnet base: 320/720  $3.49  ~8 min left
+   scan sonnet base: 340/720  $3.70  ~7 min left
+   scan sonnet base: 360/720  $3.90  ~7 min left
+   scan sonnet base: 380/720  $4.11  ~6 min left
+   scan sonnet base: 400/720  $4.34  ~6 min left
+   scan sonnet base: 420/720  $4.55  ~6 min left
+   scan sonnet base: 440/720  $4.77  ~5 min left
+   scan sonnet base: 460/720  $5.03  ~5 min left
+   scan sonnet base: 480/720  $5.27  ~5 min left
+   scan sonnet base: 500/720  $5.46  ~4 min left
+   scan sonnet base: 520/720  $5.67  ~4 min left
+   scan sonnet base: 540/720  $5.89  ~3 min left
+   scan sonnet base: 560/720  $6.12  ~3 min left
+   scan sonnet base: 580/720  $6.32  ~3 min left
+   scan sonnet base: 600/720  $6.52  ~2 min left
+   scan sonnet base: 620/720  $6.73  ~2 min left
+   scan sonnet base: 640/720  $6.95  ~1 min left
+   scan sonnet base: 660/720  $7.16  ~1 min left
+   scan sonnet base: 680/720  $7.39  ~1 min left
+   scan sonnet base: 700/720  $7.64  ~0 min left
+   scan sonnet base: 720/720  $7.88  ~0 min left
+scan sonnet base: finished 720 jobs, 0 errors, total spent $7.88
+
+sonnet / base: 239 programs, up to 3 answers each (majority vote), 6 unreadable answers
+CWE 22   vulnerable flagged   20/20   (located   16) | fixed flagged    6/20  
+CWE 77   vulnerable flagged   20/20   (located   20) | fixed flagged    0/20  
+CWE 79   vulnerable flagged   19/20   (located   15) | fixed flagged    1/20  
+CWE 89   vulnerable flagged   20/20   (located   20) | fixed flagged    0/20  
+CWE 94   vulnerable flagged   19/19   (located   19) | fixed flagged    0/20  
+CWE 502  vulnerable flagged   20/20   (located   20) | fixed flagged    4/20  
+CWE all  vulnerable flagged  118/119  (located  110) | fixed flagged   11/120 
+repeats agree on 'flagged' for 238/239 programs, on 'located' for 237/239

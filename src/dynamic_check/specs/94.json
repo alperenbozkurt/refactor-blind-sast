@@ -1,0 +1,17 @@
+{
+ "94_DS-11": {
+  "trace_code": true,
+  "normal": {
+   "stdin": [
+    "process 1",
+    "exit"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "process 9173337",
+    "exit"
+   ]
+  }
+ }
+}

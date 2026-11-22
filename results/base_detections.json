@@ -1,0 +1,9168 @@
+[
+ {
+  "id": "22_DS-1",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-1",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-1",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-1",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-1",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-1",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-10",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-10",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-10",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-10",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-10",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-10",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-11",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-11",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-11",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-11",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-11",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-11",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-12",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B110:try_except_pass",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-12",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-12",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-12",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-12",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-12",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-13",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B110:try_except_pass",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-13",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-13",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-13",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-13",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-13",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-14",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B202:tarfile_unsafe_members"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B105:hardcoded_password_string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-14",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-14",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-14",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-14",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-14",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-15",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B110:try_except_pass"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-15",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-15",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-15",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-15",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-15",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-16",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B110:try_except_pass"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-16",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-16",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-16",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-16",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-16",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-17",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-17",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-17",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-17",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-17",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-17",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-18",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B110:try_except_pass"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-18",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-18",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-18",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-18",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-18",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-19",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B202:tarfile_unsafe_members"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-19",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-19",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-19",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-19",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-19",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-2",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-2",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-2",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-2",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-2",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-2",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-20",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-20",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-20",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-20",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-20",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-20",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-3",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-3",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-3",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-3",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-3",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-3",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-4",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-4",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-4",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-4",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-4",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-4",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-5",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B201:flask_debug_true",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-5",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-5",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201",
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-5",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-5",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-5",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-6",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B202:tarfile_unsafe_members"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-6",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-6",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-6",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B202:tarfile_unsafe_members"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-6",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-6",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-7",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-7",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-7",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-7",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-7",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-7",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-8",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-8",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-8",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-8",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-8",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-8",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-9",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-9",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-9",
+  "cwe": 22,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-9",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-9",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "22_DS-9",
+  "cwe": 22,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-1",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-1",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-1",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-1",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-1",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-1",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-10",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-10",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-10",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-10",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-10",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-10",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-11",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-11",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-11",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-11",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-11",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-11",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-12",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-12",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-12",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-12",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-12",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-12",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-13",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-13",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-13",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-13",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-13",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-13",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-14",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B102:exec_used",
+   "B104:hardcoded_bind_all_interfaces",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-14",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.lang.security.audit.exec-detected.exec-detected",
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-14",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B102",
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-14",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-14",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-14",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-15",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-15",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-15",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-15",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-15",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-15",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-16",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-16",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-16",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-16",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "502_DS-16",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "502_DS-16",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "502_DS-17",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-17",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-17",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-17",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-17",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-17",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-18",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-18",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-18",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-18",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-18",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-18",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-19",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-19",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-19",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-19",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-19",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-19",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-2",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B302:blacklist",
+   "B506:yaml_load"
+  ],
+  "other_rules": [
+   "B102:exec_used",
+   "B104:hardcoded_bind_all_interfaces",
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-2",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.flask.security.insecure-deserialization.insecure-deserialization",
+   "rules.python.lang.security.audit.marshal.marshal-usage",
+   "rules.python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-2",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B302",
+   "rules.gitlab.bandit.B506"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B102",
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-2",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-2",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-2",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-20",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-20",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-20",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-20",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-20",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-20",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-3",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-3",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-3",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-3",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-3",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-3",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-4",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-4",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-4",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-4",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-4",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-4",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-5",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-5",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-5",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-5",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-5",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-5",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-6",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-6",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle",
+   "rules.python.lang.security.deserialization.pickle.avoid-shelve"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-6",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.gitlab.bandit.B301-4",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-6",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B307:blacklist"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-6",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-shelve"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-6",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "rules.gitlab.bandit.B301-4"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-7",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-7",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-7",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-7",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-7",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-7",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-8",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-8",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-8",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-8",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-8",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host",
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-8",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-9",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B301:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-9",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-9",
+  "cwe": 502,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B301-1",
+   "rules.python.lang.security.deserialization.pickle.avoid-pickle"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-9",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-9",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "502_DS-9",
+  "cwe": 502,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-1",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-1",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-1",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-1",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-1",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-1",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-10",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [
+   "B110:try_except_pass",
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-10",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-10",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-10",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B110:try_except_pass",
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-10",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-10",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-11",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-11",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-11",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-11",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-11",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-11",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-12",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-12",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-12",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-12",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-12",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-12",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-13",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-13",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-13",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-13",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-13",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-13",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-14",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-14",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-14",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-14",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-14",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-14",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-15",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-15",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-15",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-15",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-15",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-15",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-16",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-16",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-16",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-16",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-16",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-16",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-17",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-17",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-17",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-17",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-17",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-17",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-18",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-18",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-18",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-18",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-18",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-18",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-19",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-19",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-19",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-19",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-19",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-19",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-2",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-2",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-2",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-2",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-2",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-2",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-20",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-20",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-20",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-20",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B112:try_except_continue",
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-20",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-20",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-3",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-3",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-3",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-3",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-3",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-3",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-4",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-4",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-4",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-4",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-4",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-4",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-5",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-5",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-5",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.gitlab.bandit.B603",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-5",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-5",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-5",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "rules.gitlab.bandit.B603"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-6",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [
+   "B602:subprocess_popen_with_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-6",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-6",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-6",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true",
+   "B607:start_process_with_partial_path"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-6",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-6",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-7",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-7",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-7",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-7",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-7",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-7",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-8",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-8",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-8",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-8",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-8",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-8",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-9",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B602:subprocess_popen_with_shell_equals_true"
+  ],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-9",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-9",
+  "cwe": 77,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B602",
+   "rules.python.lang.security.audit.subprocess-shell-true.subprocess-shell-true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-9",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B603:subprocess_without_shell_equals_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-9",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "77_DS-9",
+  "cwe": 77,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-1",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "B201:flask_debug_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-1",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-1",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-1",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-1",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-1",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-10",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-10",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-10",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-10",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-10",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-10",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-11",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "B201:flask_debug_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-11",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-11",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-11",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-11",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-11",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-12",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B106:hardcoded_password_funcarg"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-12",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.django.security.injection.reflected-data-httpresponse.reflected-data-httpresponse"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-12",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-12",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-12",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-12",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-13",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B106:hardcoded_password_funcarg"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-13",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-13",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-13",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-13",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-13",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-14",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-14",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-14",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-14",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-14",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-14",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-15",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-15",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.pyramid.audit.authtkt-cookie-httponly-unsafe-default.pyramid-authtkt-cookie-httponly-unsafe-default",
+   "rules.python.pyramid.audit.authtkt-cookie-secure-unsafe-default.pyramid-authtkt-cookie-secure-unsafe-default"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-15",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-15",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-15",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-15",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-16",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B106:hardcoded_password_funcarg"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-16",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-16",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-16",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-16",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-16",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-17",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-17",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-17",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-17",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-17",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-17",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-18",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-18",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-18",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-18",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-18",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-18",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-19",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-19",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.injection.raw-html-concat.raw-html-format"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-19",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-19",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-19",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.injection.raw-html-concat.raw-html-format"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-19",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-2",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-2",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "rules.python.django.security.injection.reflected-data-httpresponse.reflected-data-httpresponse"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-2",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-2",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-2",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-2",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-20",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-20",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-20",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-20",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-20",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-20",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-3",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-3",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-3",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-3",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-3",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-3",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-4",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-4",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-4",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-4",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-4",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-4",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-5",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-5",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-5",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-5",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-5",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-5",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-6",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-6",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-6",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-6",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-6",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-6",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-7",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-7",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-7",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-7",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-7",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-7",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-8",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-8",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.flask.security.audit.directly-returned-format-string.directly-returned-format-string",
+   "rules.python.flask.security.injection.raw-html-concat.raw-html-format"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-8",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-8",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-8",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-8",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-9",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-9",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-9",
+  "cwe": 79,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-9",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-9",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.injection.raw-html-concat.raw-html-format"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "79_DS-9",
+  "cwe": 79,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-1",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-1",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.injection.tainted-sql-string.tainted-sql-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-1",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-1",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-1",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.hardcoded-config.avoid_hardcoded_config_DEBUG"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-1",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-10",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-10",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-10",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-10",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-10",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-10",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-11",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B201:flask_debug_true"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-11",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.injection.tainted-sql-string.tainted-sql-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-11",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-11",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-11",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-11",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-12",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B105:hardcoded_password_string",
+   "B201:flask_debug_true",
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-12",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.injection.tainted-sql-string.tainted-sql-string",
+   "rules.python.lang.security.audit.md5-used-as-password.md5-used-as-password",
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-12",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201",
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-12",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B105:hardcoded_password_string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-12",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-12",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-13",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-13",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-13",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-13",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-13",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-13",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-14",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-14",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-14",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B608",
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-14",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-14",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-14",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-15",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-15",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [
+   "rules.python.django.security.audit.csrf-exempt.no-csrf-exempt"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-15",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-15",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-15",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.django.security.audit.csrf-exempt.no-csrf-exempt"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-15",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-16",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-16",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-16",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-16",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-16",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-16",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-17",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-17",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-17",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-17",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-17",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-17",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-18",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-18",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-18",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-18",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-18",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-18",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-19",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-19",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-19",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-19",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-19",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-19",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-2",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-2",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-2",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-2",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-2",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-2",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-20",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-20",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-20",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B608"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-20",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-20",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-20",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-3",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-3",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [
+   "rules.python.django.security.audit.csrf-exempt.no-csrf-exempt"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-3",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-3",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-3",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-3",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-4",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-4",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-4",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-4",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-4",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-4",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-5",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-5",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-5",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-5",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-5",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-5",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-6",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-6",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-6",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-6",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-6",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-6",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-7",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-7",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-7",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-7",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-7",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-7",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-8",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-8",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-8",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-8",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-8",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-8",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-9",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-9",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-9",
+  "cwe": 89,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.formatted-sql-query.formatted-sql-query"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-9",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-9",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "89_DS-9",
+  "cwe": 89,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-1",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used",
+   "B201:flask_debug_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-1",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-1",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-1",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": false,
+  "rules": [
+   "B201:flask_debug_true"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-1",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-1",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-10",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-10",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-10",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-10",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-10",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-10",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-11",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B307:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-11",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-11",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-11",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-11",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-11",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-12",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B201:flask_debug_true",
+   "B307:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-12",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.django.security.injection.code.user-eval.user-eval",
+   "rules.python.flask.security.injection.user-eval.eval-injection",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled",
+   "rules.python.flask.security.audit.render-template-string.render-template-string",
+   "rules.python.flask.security.dangerous-template-string.dangerous-template-string",
+   "rules.python.flask.security.injection.raw-html-concat.raw-html-format"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-12",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-12",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-12",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.render-template-string.render-template-string"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-12",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-13",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B201:flask_debug_true",
+   "B307:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-13",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-13",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-13",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-13",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-13",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-14",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-14",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.flask.security.injection.user-eval.eval-injection",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-14",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-14",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-14",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-14",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-15",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B201:flask_debug_true",
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-15",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-15",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-15",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B608:hardcoded_sql_expressions"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-15",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-15",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-16",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-16",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-16",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-16",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B324:hashlib"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-16",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-16",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.gitlab.bandit.B303-1"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-17",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B201:flask_debug_true",
+   "B307:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-17",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.flask.security.injection.user-eval.eval-injection",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-17",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-17",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-17",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-17",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-18",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used",
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-18",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.flask.security.injection.user-eval.eval-injection",
+   "rules.python.lang.security.audit.eval-detected.eval-detected",
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-18",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102",
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-18",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-18",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-18",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-19",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used",
+   "B201:flask_debug_true",
+   "B307:blacklist"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-19",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.flask.security.injection.user-eval.eval-injection",
+   "rules.python.lang.security.audit.eval-detected.eval-detected",
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.debug-enabled.debug-enabled"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-19",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102",
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.gitlab.bandit.B201"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-19",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-19",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-19",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-2",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B112:try_except_continue"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-2",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-2",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-2",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-2",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-2",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-20",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-20",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.flask.security.injection.user-eval.eval-injection",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-20",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-20",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-20",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-20",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": false
+ },
+ {
+  "id": "94_DS-3",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-3",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-3",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-3",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-3",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-3",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-4",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-4",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-4",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-4",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-4",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-4",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-5",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used",
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-5",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected",
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.audit.directly-returned-format-string.directly-returned-format-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-5",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102",
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-5",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-5",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.audit.directly-returned-format-string.directly-returned-format-string"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-5",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-6",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-6",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-6",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-6",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-6",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.django.security.injection.raw-html-format.raw-html-format",
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-6",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-7",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-7",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-7",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-7",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-7",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-7",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-8",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used",
+   "B307:blacklist"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-8",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.eval-detected.eval-detected",
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-8",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102",
+   "rules.gitlab.bandit.B307",
+   "rules.python.lang.security.audit.eval-detected.eval-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-8",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-8",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "rules.python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-8",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-9",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "B102:exec_used"
+  ],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-9",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-registry",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.python.lang.security.audit.exec-detected.exec-detected"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-9",
+  "cwe": 94,
+  "kind": "vuln",
+  "tool": "semgrep-bandit",
+  "detected": true,
+  "in_function": true,
+  "rules": [
+   "rules.gitlab.bandit.B102"
+  ],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-9",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [
+   "B104:hardcoded_bind_all_interfaces"
+  ],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-9",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-registry",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ },
+ {
+  "id": "94_DS-9",
+  "cwe": 94,
+  "kind": "safe",
+  "tool": "semgrep-bandit",
+  "detected": false,
+  "in_function": false,
+  "rules": [],
+  "other_rules": [],
+  "span_found": true
+ }
+]

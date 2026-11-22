@@ -1,0 +1,767 @@
+{
+ "false_alarms": {
+  "bandit": {
+   "file": {
+    "alarms": 6,
+    "attack_blocked": 6,
+    "per_cwe": {
+     "22": 1,
+     "502": 2,
+     "89": 2,
+     "94": 1
+    }
+   },
+   "function": {
+    "alarms": 3,
+    "attack_blocked": 3,
+    "per_cwe": {
+     "22": 1,
+     "502": 1,
+     "89": 1
+    }
+   }
+  },
+  "semgrep-bandit": {
+   "file": {
+    "alarms": 4,
+    "attack_blocked": 4,
+    "per_cwe": {
+     "502": 2,
+     "77": 1,
+     "89": 1
+    }
+   },
+   "function": {
+    "alarms": 1,
+    "attack_blocked": 1,
+    "per_cwe": {
+     "502": 1
+    }
+   }
+  },
+  "semgrep-registry": {
+   "file": {
+    "alarms": 4,
+    "attack_blocked": 3,
+    "no_dynamic_data": 1,
+    "per_cwe": {
+     "502": 2,
+     "79": 2
+    }
+   },
+   "function": {
+    "alarms": 3,
+    "attack_blocked": 2,
+    "no_dynamic_data": 1,
+    "per_cwe": {
+     "502": 1,
+     "79": 2
+    }
+   }
+  },
+  "codeql": {
+   "file": {
+    "alarms": 24,
+    "attack_blocked": 24,
+    "per_cwe": {
+     "22": 10,
+     "502": 1,
+     "77": 11,
+     "89": 2
+    }
+   },
+   "function": {
+    "alarms": 20,
+    "attack_blocked": 20,
+    "per_cwe": {
+     "22": 8,
+     "502": 1,
+     "77": 10,
+     "89": 1
+    }
+   }
+  },
+  "kimi": {
+   "file": {
+    "alarms": 12,
+    "attack_blocked": 12,
+    "per_cwe": {
+     "22": 7,
+     "502": 4,
+     "79": 1
+    }
+   },
+   "function": {
+    "alarms": 6,
+    "attack_blocked": 6,
+    "per_cwe": {
+     "22": 3,
+     "502": 2,
+     "79": 1
+    }
+   }
+  },
+  "sonnet": {
+   "file": {
+    "alarms": 11,
+    "attack_blocked": 11,
+    "per_cwe": {
+     "22": 6,
+     "502": 4,
+     "79": 1
+    }
+   },
+   "function": {
+    "alarms": 6,
+    "attack_blocked": 6,
+    "per_cwe": {
+     "22": 3,
+     "502": 2,
+     "79": 1
+    }
+   }
+  }
+ },
+ "both_llm_alarms": [
+  "22_DS-1",
+  "22_DS-2",
+  "22_DS-6",
+  "502_DS-1",
+  "502_DS-8",
+  "79_DS-19"
+ ],
+ "equivalence": {
+  "per_variant": {
+   "kimi_L0": {
+    "n": 108,
+    "same_coarse": 108,
+    "same_full": 106,
+    "base_errored": 15
+   },
+   "kimi_L1": {
+    "n": 109,
+    "same_coarse": 109,
+    "same_full": 107,
+    "base_errored": 15
+   },
+   "kimi_L2": {
+    "n": 109,
+    "same_coarse": 109,
+    "same_full": 108,
+    "base_errored": 15
+   },
+   "sonnet_L0": {
+    "n": 109,
+    "same_coarse": 109,
+    "same_full": 91,
+    "base_errored": 15
+   },
+   "sonnet_L1": {
+    "n": 109,
+    "same_coarse": 109,
+    "same_full": 107,
+    "base_errored": 15
+   },
+   "sonnet_L2": {
+    "n": 105,
+    "same_coarse": 105,
+    "same_full": 86,
+    "base_errored": 15
+   }
+  },
+  "total": {
+   "n": 649,
+   "same_coarse": 649,
+   "same_full": 605,
+   "base_errored": 90
+  },
+  "differences": [
+   {
+    "id": "502_DS-7",
+    "variant": "kimi_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "502_DS-7",
+    "variant": "kimi_L1",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "502_DS-7",
+    "variant": "kimi_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "502_DS-7",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "502_DS-7",
+    "variant": "sonnet_L1",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "502_DS-7",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "89_DS-1",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-1",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-10",
+    "variant": "sonnet_L0",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-10",
+    "variant": "sonnet_L2",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-11",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-11",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-12",
+    "variant": "sonnet_L0",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-12",
+    "variant": "sonnet_L2",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-13",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-13",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-14",
+    "variant": "sonnet_L0",
+    "base": null,
+    "refactored": null,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-14",
+    "variant": "sonnet_L2",
+    "base": null,
+    "refactored": null,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-15",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-15",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-16",
+    "variant": "kimi_L0",
+    "base": null,
+    "refactored": null,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-16",
+    "variant": "sonnet_L0",
+    "base": null,
+    "refactored": null,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-16",
+    "variant": "sonnet_L2",
+    "base": null,
+    "refactored": null,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-17",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-17",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-18",
+    "variant": "sonnet_L2",
+    "base": null,
+    "refactored": null,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-19",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-19",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-2",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-20",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-20",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-3",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-3",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-4",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-4",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-5",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-6",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-7",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-9",
+    "variant": "sonnet_L0",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "89_DS-9",
+    "variant": "sonnet_L2",
+    "base": 200,
+    "refactored": 200,
+    "coarse_differs": false,
+    "sql": true,
+    "output": false
+   },
+   {
+    "id": "94_DS-6",
+    "variant": "kimi_L1",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "94_DS-6",
+    "variant": "sonnet_L0",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "94_DS-6",
+    "variant": "sonnet_L1",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   },
+   {
+    "id": "94_DS-6",
+    "variant": "sonnet_L2",
+    "base": 500,
+    "refactored": 500,
+    "coarse_differs": false,
+    "sql": false,
+    "output": true
+   }
+  ]
+ },
+ "cross": {
+  "bandit": {
+   "kimi": {
+    "blinded": 14,
+    "still_vulnerable": 245,
+    "pct": 5.71,
+    "wilson95": [
+     3.43,
+     9.36
+    ]
+   },
+   "sonnet": {
+    "blinded": 3,
+    "still_vulnerable": 181,
+    "pct": 1.66,
+    "wilson95": [
+     0.57,
+     4.76
+    ]
+   }
+  },
+  "semgrep-bandit": {
+   "kimi": {
+    "blinded": 27,
+    "still_vulnerable": 230,
+    "pct": 11.74,
+    "wilson95": [
+     8.19,
+     16.54
+    ]
+   },
+   "sonnet": {
+    "blinded": 17,
+    "still_vulnerable": 166,
+    "pct": 10.24,
+    "wilson95": [
+     6.49,
+     15.79
+    ]
+   }
+  },
+  "semgrep-registry": {
+   "kimi": {
+    "blinded": 30,
+    "still_vulnerable": 218,
+    "pct": 13.76,
+    "wilson95": [
+     9.81,
+     18.97
+    ]
+   },
+   "sonnet": {
+    "blinded": 17,
+    "still_vulnerable": 163,
+    "pct": 10.43,
+    "wilson95": [
+     6.61,
+     16.07
+    ]
+   }
+  },
+  "codeql": {
+   "kimi": {
+    "blinded": 26,
+    "still_vulnerable": 233,
+    "pct": 11.16,
+    "wilson95": [
+     7.73,
+     15.85
+    ]
+   },
+   "sonnet": {
+    "blinded": 31,
+    "still_vulnerable": 181,
+    "pct": 17.13,
+    "wilson95": [
+     12.34,
+     23.28
+    ]
+   }
+  },
+  "kimi": {
+   "kimi": {
+    "blinded": 0,
+    "still_vulnerable": 323,
+    "pct": 0.0,
+    "wilson95": [
+     0.0,
+     1.18
+    ]
+   },
+   "sonnet": {
+    "blinded": 2,
+    "still_vulnerable": 249,
+    "pct": 0.8,
+    "wilson95": [
+     0.22,
+     2.88
+    ]
+   }
+  },
+  "sonnet": {
+   "kimi": {
+    "blinded": 0,
+    "still_vulnerable": 323,
+    "pct": 0.0,
+    "wilson95": [
+     0.0,
+     1.18
+    ]
+   },
+   "sonnet": {
+    "blinded": 3,
+    "still_vulnerable": 249,
+    "pct": 1.2,
+    "wilson95": [
+     0.41,
+     3.48
+    ]
+   }
+  }
+ },
+ "examples": [
+  {
+   "id": "89_DS-10",
+   "variant": "kimi_L0",
+   "attack_fires_original": true,
+   "attack_fires_fixed": false,
+   "attack_fires_refactored": true,
+   "detectors": {
+    "bandit": {
+     "original": true,
+     "refactored": false
+    },
+    "semgrep-bandit": {
+     "original": true,
+     "refactored": false
+    },
+    "semgrep-registry": {
+     "original": false,
+     "refactored": false
+    },
+    "codeql": {
+     "original": false,
+     "refactored": false
+    },
+    "kimi": {
+     "original": true,
+     "refactored": true
+    },
+    "sonnet": {
+     "original": true,
+     "refactored": true
+    }
+   }
+  },
+  {
+   "id": "77_DS-1",
+   "variant": "sonnet_L1",
+   "attack_fires_original": true,
+   "attack_fires_fixed": false,
+   "attack_fires_refactored": true,
+   "detectors": {
+    "bandit": {
+     "original": true,
+     "refactored": true
+    },
+    "semgrep-bandit": {
+     "original": true,
+     "refactored": true
+    },
+    "semgrep-registry": {
+     "original": true,
+     "refactored": true
+    },
+    "codeql": {
+     "original": true,
+     "refactored": false
+    },
+    "kimi": {
+     "original": true,
+     "refactored": true
+    },
+    "sonnet": {
+     "original": true,
+     "refactored": true
+    }
+   }
+  }
+ ]
+}

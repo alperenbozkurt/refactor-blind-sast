@@ -1,0 +1,19 @@
+# credentials
+.env
+
+# environments
+.venv/
+.venv-dynamic/
+__pycache__/
+*.pyc
+.DS_Store
+
+# third-party data (the dataset states no licence); the LLM refactorings in data/llm_variants/ are published
+data/PySASTBench_raw/
+data/pysastbench/
+
+# paper sources are kept outside the artifact
+paper/
+
+# local run logs
+results/run_api.log

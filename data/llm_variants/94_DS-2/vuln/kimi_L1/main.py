@@ -1,0 +1,104 @@
+import json
+import os
+
+from bottle import Bottle, request, response, template
+
+app = Bottle()
+
+DATA_FILE = 'user_data.json'
+
+INDEX_PAGE = """
+        <form action="/search" method="post">
+            <h2>User Search</h2>
+            Name: <input name="name" type="text"><br>
+            Age: <input name="age" type="number"><br>
+            Filter Expression (Python): 
+            <input name="filter" type="text" placeholder="e.g., item['age'] > 18"><br>
+            <button type="submit">Search</button>
+        </form>
+        <a href="/users">View All Users</a>
+    """
+
+USER_LIST_PAGE = """
+        <h2>All Users</h2>
+        <ul>
+            %for user in data['users']:
+                <li>{{user['name']}} ({{user['age']}})</li>
+            %end
+        </ul>
+    """
+
+SEARCH_RESULTS_PAGE = """
+        <h2>Search Results</h2>
+        <ul>
+            %for user in results:
+                <li>{{user['name']}} ({{user['age']}})</li>
+            %end
+        </ul>
+        <a href="/">New Search</a>
+    """
+
+
+def init_data():
+    """Create the data file with an empty user list if it does not exist."""
+    if not os.path.exists(DATA_FILE):
+        with open(DATA_FILE, 'w') as f:
+            json.dump({'users': []}, f)
+
+
+def load_data():
+    """Load and return the JSON data stored in the data file."""
+    with open(DATA_FILE) as f:
+        return json.load(f)
+
+
+def save_data(data):
+    """Serialize the given data as JSON into the data file."""
+    with open(DATA_FILE, 'w') as f:
+        json.dump(data, f)
+
+
+def filter_impl(data, filter_expr):
+    """Return the items for which the Python filter expression is truthy."""
+    filtered = []
+    for item in data:
+        try:
+            if eval(filter_expr, {}, {'item': item}):
+                filtered.append(item)
+        except:
+            continue
+    return filtered
+
+
+@app.route('/')
+def index():
+    return INDEX_PAGE
+
+
+@app.route('/users')
+def list_users():
+    data = load_data()
+    return template(USER_LIST_PAGE, data=data)
+
+
+@app.post('/search')
+def search_users():
+    data = load_data()
+    filter_expr = request.forms.get('filter', 'True')
+    results = filter_impl(data['users'], filter_expr)
+    return template(SEARCH_RESULTS_PAGE, results=results)
+
+
+@app.post('/add')
+def add_user():
+    data = load_data()
+    name = request.forms.get('name')
+    age = int(request.forms.get('age'))
+    data['users'].append({'name': name, 'age': age})
+    save_data(data)
+    return 'User added successfully!'
+
+
+if __name__ == '__main__':
+    init_data()
+    app.run(host='localhost', port=8080, debug=True)

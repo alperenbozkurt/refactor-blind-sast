@@ -1,0 +1,1864 @@
+[
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Analytics service initialized\nEnter path to config file: Error: Only .json and .yaml/.yml files are supported\n",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "e \"/private<SB>/main.py\", line 78, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 31, in load_config_from_file\n    config_data = pickle.load(f)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "e \"/private<SB>/main.py\", line 78, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 31, in load_config_from_file\n    config_data = pickle.load(f)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "  File \"/private<SB>/main.py\", line 86, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 33, in load_config_from_file\n    apply_config(loader(f))\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "  File \"/private<SB>/main.py\", line 86, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 33, in load_config_from_file\n    apply_config(loader(f))\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": ">/main.py\", line 104, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 35, in load_config_from_file\n    self._apply_pickle_config(pickle.load(f))\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": ">/main.py\", line 104, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 35, in load_config_from_file\n    self._apply_pickle_config(pickle.load(f))\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "py\", line 88, in load_config_from_file\n    self._load_config_from_stream(f, file_path)\n  File \"/private<SB>/main.py\", line 94, in _load_config_from_stream\n    config_data = loader(stream)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "py\", line 88, in load_config_from_file\n    self._load_config_from_stream(f, file_path)\n  File \"/private<SB>/main.py\", line 94, in _load_config_from_stream\n    config_data = loader(stream)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 92, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 85, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 33, in load_config_from_file\n    raise ValueError('Unsupported config format')\nValueError: Unsupported config format\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 92, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 85, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 33, in load_config_from_file\n    raise ValueError('Unsupported config format')\nValueError: Unsupported config format\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": " \"/private<SB>/main.py\", line 109, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 38, in load_config_from_file\n    config_data = pickle.load(f)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": " \"/private<SB>/main.py\", line 109, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 38, in load_config_from_file\n    config_data = pickle.load(f)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-11",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": " \"/private<SB>/main.py\", line 130, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 52, in load_config_from_file\n    config_data = pickle.load(f)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Analytics service initialized\nEnter path to config file: ",
+   "stderr_tail": " \"/private<SB>/main.py\", line 130, in main\n    service.load_config_from_file(config_path)\n  File \"/private<SB>/main.py\", line 52, in load_config_from_file\n    config_data = pickle.load(f)\n  File \"<SB>/sitecustomize.py\", line 8, in <lambda>\n    pickle.load = lambda *a, **k: (_m(), _pL(*a, **k))[1]\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py\", line 322, in decode\n    (result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'error': 'Only JSON documents are supported'}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-12",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Document Management System ready\nEnter document path (or 'quit' to exit): Processing result: {'metadata': {'title': 'Untitled', 'author': 'Unknown', 'tags': [], 'created': '<TS>', 'modified': '<TS>'}, 'analytics': {'processing_time': 0, 'word_count': 0, 'image_count': 0}, 'content_info': {'format': 'plaintext', 'size': 83}}\nEnter document path (or 'quit' to exit): ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 189, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 156, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 189, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 156, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 269, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 258, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 269, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 258, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 242, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 207, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 242, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 207, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 404, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 393, in main\n    choice = input(PROMPT_CHOICE).strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 404, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 393, in main\n    choice = input(PROMPT_CHOICE).strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 244, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 233, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 244, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 233, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 275, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 264, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 275, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 264, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 327, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 316, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Unsupported plugin format: payload.pkl\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 327, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 316, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 157, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 133, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 157, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 133, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 199, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 188, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 199, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 188, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 210, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 196, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 210, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 196, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 295, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 281, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 295, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 281, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 196, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 185, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 196, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 185, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 237, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 226, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 237, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 226, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-16",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 285, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 274, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Document Processor initialized\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Enter plugin path: Failed to load plugin payload.pkl: 'plugin_class'\nFailed to load plugin\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: Invalid option\n\n1. Load plugin\n2. Create document\n3. Process document\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 285, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 274, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 177, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 161, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 177, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 161, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 246, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 228, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 246, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 228, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 262, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 244, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 262, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 244, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 280, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 262, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 280, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 262, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 250, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 232, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 250, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 232, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 267, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 249, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 267, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 249, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 317, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 303, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Failed to process transactions\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 317, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 303, in main\n    choice = input('Select option: ').strip()\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 134, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 121, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 134, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 121, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 154, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 139, in main\n    choice = input(\"Select option: \")\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 154, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 139, in main\n    choice = input(\"Select option: \")\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 170, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 155, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 170, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 155, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 217, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 202, in main\n    choice = input(_PROMPT_SELECT_OPTION)\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 217, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 202, in main\n    choice = input(_PROMPT_SELECT_OPTION)\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 178, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 163, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 178, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 163, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 188, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 173, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 188, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 173, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-17",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 218, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 203, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Financial Transaction System\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Enter transaction file path: Transactions processed successfully\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: Invalid option\n\n1. Process transaction file\n2. Show account balances\n3. Show audit log\n4. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 218, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 203, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 144, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 132, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 144, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 132, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 176, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 164, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 176, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 164, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 188, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 174, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 188, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 174, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 290, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 278, in main\n    choice = input(PROMPT_SELECT_OPTION)\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 290, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 278, in main\n    choice = input(PROMPT_SELECT_OPTION)\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 172, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 158, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 172, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 158, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 191, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 177, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 191, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 177, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 238, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 224, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Failed to import patient records\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 238, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 224, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 140, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 128, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 140, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 128, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 158, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 146, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 158, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 146, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 173, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 159, in main\n    choice = input(\"Select option: \")\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 173, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 159, in main\n    choice = input(\"Select option: \")\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 283, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 271, in main\n    choice = input(PROMPT_SELECT_OPTION)\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 283, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 271, in main\n    choice = input(PROMPT_SELECT_OPTION)\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 184, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 170, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 184, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 170, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 199, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 185, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 199, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 185, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-18",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 258, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 244, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 1,
+   "stdout": "Hospital Records Management System\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Enter import file path: Patient records imported successfully\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: Invalid option\n\n1. Import patient records\n2. View patient record\n3. Exit\nSelect option: ",
+   "stderr_tail": "Traceback (most recent call last):\n  File \"/private<SB>/main.py\", line 258, in <module>\n    main()\n  File \"/private<SB>/main.py\", line 244, in main\n    choice = input('Select option: ')\nEOFError: EOF when reading a line\n",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-19",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Game Client\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: Enter save file path: Failed to import save file\n\n1. Start new game\n2. Save current game\n3. Load game\n4. Import save file\n5. View game state\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "502_DS-20",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Smart Home Automation System\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: Enter config file path: Failed to import device config\n\n1. Add new device\n2. Import device config\n3. Create backup\n4. Restore backup\n5. View audit log\n6. Exit\nSelect option: ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ }
+]

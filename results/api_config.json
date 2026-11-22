@@ -1,0 +1,56 @@
+{
+ "sonnet": {
+  "model_id": "claude-sonnet-5-5",
+  "provider": "anthropic",
+  "ok": true,
+  "attempts": [
+   {
+    "setting": "temperature 0",
+    "ok": false,
+    "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011CgWuMDJjwriiqzVMNbHdS\"}"
+   },
+   {
+    "setting": "temperature 0, thinking disabled",
+    "ok": false,
+    "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"To turn thinking off on this model, send \\\"thinking\\\": {\\\"type\\\": \\\"between_tools\\\"} instead of {\\\"type\\\": \\\"disabled\\\"}. The model does not think before responding. The short updates it writes between tool calls come back as thinking blocks.\"},\"request_id\":\"req_011CgWuMFo4RS1tBG28meiJv\"}"
+   },
+   {
+    "setting": "provider defaults",
+    "ok": true
+   }
+  ],
+  "inference": {},
+  "extra": null,
+  "temperature_zero": false,
+  "setting": "provider defaults",
+  "deterministic_on_sample": false,
+  "sample_answer": "{\"vulnerable\": true, \"findings\": [{\"cwe\": \"CWE-22\", \"function\": \"FileServerHandler.serve_file\", \"line\": 21, \"explanation\": \"The user-controlled file_path is joined to BASE_DIR with no normalization or containment check, so '../' sequences or absolute paths (os.path.join discards the base for absolute paths) let a client read arbitrary files.\"}, {\"cwe\": \"CWE-209\", \"function\": \"FileServerHandler.do_GET\", \"line\": 16, \"explanation\": \"Raw exception messages are sent to the client, which can leak internal paths and system details.\"}, {\"cwe\": \"CWE-209\", \"function\": \"FileServerHandler.serve_file\", \"line\": 42, \"explanation\": \"str(e) from file operations is returned in the HTTP response, disclosing internal error and path information.\"}, {\"cwe\": \"CWE-113\", \"function\": \"FileServerHandler.serve_file\", \"line\": 37, \"explanation\": \"The filename is placed unquoted in the Content-Disposition header, so a crafted name with special characters could manipulate the header; this is a minor header-injection "
+ },
+ "kimi": {
+  "model_id": "us.moonshotai.kimi-k3",
+  "provider": "bedrock",
+  "ok": true,
+  "attempts": [
+   {
+    "setting": "temperature 0",
+    "ok": false,
+    "error": "HTTP 400: {\"message\":\"This model doesn't support the temperature field. Remove temperature and try again.\"}"
+   },
+   {
+    "setting": "temperature 0, thinking disabled",
+    "ok": false,
+    "error": "HTTP 400: {\"message\":\"This model doesn't support the temperature field. Remove temperature and try again.\"}"
+   },
+   {
+    "setting": "provider defaults",
+    "ok": true
+   }
+  ],
+  "inference": {},
+  "extra": null,
+  "temperature_zero": false,
+  "setting": "provider defaults",
+  "deterministic_on_sample": false,
+  "sample_answer": "```json\n{\"vulnerable\": true,\n  \"findings\": [\n    {\"cwe\": \"CWE-22\", \"function\": \"FileServerHandler.serve_file\", \"line\": 22, \"explanation\": \"The user-controlled file_path is joined to BASE_DIR without validation or canonicalization, allowing path traversal via '../' sequences or absolute paths (e.g., /download/../../etc/passwd) to read arbitrary files outside the intended directory.\"},\n    {\"cwe\": \"CWE-209\", \"function\": \"FileServerHandler.do_GET\", \"line\": 19, \"explanation\": \"Raw exception messages are returned to remote clients in the HTTP response, potentially exposing internal filesystem paths and implementation details useful to an attacker.\"}\n  ]\n}\n```"
+ }
+}

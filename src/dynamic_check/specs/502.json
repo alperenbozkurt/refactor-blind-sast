@@ -1,0 +1,201 @@
+{
+ "502_DS-11": {
+  "trace_deser": true,
+  "files_b64": {
+   "payload.pkl": "gASVRAAAAAAAAAB9lCiMBmNvbmZpZ5R9lCiMBG5hbWWUjAR0ZXN0lIwFdmFsdWWUSwF1jAdyZWNvcmRzlF2UjAJ6epSMBk1BUktFUpR1Lg=="
+  },
+  "normal": {
+   "stdin": [
+    "payload.pkl"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "payload.pkl"
+   ]
+  }
+ },
+ "502_DS-12": {
+  "trace_deser": true,
+  "files_b64": {
+   "payload.pkl": "gASVRAAAAAAAAAB9lCiMBmNvbmZpZ5R9lCiMBG5hbWWUjAR0ZXN0lIwFdmFsdWWUSwF1jAdyZWNvcmRzlF2UjAJ6epSMBk1BUktFUpR1Lg=="
+  },
+  "normal": {
+   "stdin": [
+    "payload.pkl",
+    "quit"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "payload.pkl",
+    "quit"
+   ]
+  }
+ },
+ "502_DS-16": {
+  "trace_deser": true,
+  "files_b64": {
+   "payload.pkl": "gASVRAAAAAAAAAB9lCiMBmNvbmZpZ5R9lCiMBG5hbWWUjAR0ZXN0lIwFdmFsdWWUSwF1jAdyZWNvcmRzlF2UjAJ6epSMBk1BUktFUpR1Lg=="
+  },
+  "normal": {
+   "stdin": [
+    "1",
+    "payload.pkl",
+    "9"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "payload.pkl",
+    "9"
+   ]
+  }
+ },
+ "502_DS-17": {
+  "trace_deser": true,
+  "files_b64": {
+   "payload.pkl": "gASVRAAAAAAAAAB9lCiMBmNvbmZpZ5R9lCiMBG5hbWWUjAR0ZXN0lIwFdmFsdWWUSwF1jAdyZWNvcmRzlF2UjAJ6epSMBk1BUktFUpR1Lg=="
+  },
+  "normal": {
+   "stdin": [
+    "1",
+    "payload.pkl",
+    "9"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "payload.pkl",
+    "9"
+   ]
+  }
+ },
+ "502_DS-18": {
+  "trace_deser": true,
+  "files_b64": {
+   "payload.pkl": "gASVRAAAAAAAAAB9lCiMBmNvbmZpZ5R9lCiMBG5hbWWUjAR0ZXN0lIwFdmFsdWWUSwF1jAdyZWNvcmRzlF2UjAJ6epSMBk1BUktFUpR1Lg=="
+  },
+  "normal": {
+   "stdin": [
+    "1",
+    "payload.pkl",
+    "9"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "payload.pkl",
+    "9"
+   ]
+  }
+ },
+ "502_DS-19": {
+  "trace_deser": true,
+  "files_b64": {
+   "payload.pkl": "gASVRAAAAAAAAAB9lCiMBmNvbmZpZ5R9lCiMBG5hbWWUjAR0ZXN0lIwFdmFsdWWUSwF1jAdyZWNvcmRzlF2UjAJ6epSMBk1BUktFUpR1Lg=="
+  },
+  "normal": {
+   "stdin": [
+    "4",
+    "payload.pkl",
+    "6"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "4",
+    "payload.pkl",
+    "6"
+   ]
+  }
+ },
+ "502_DS-20": {
+  "trace_deser": true,
+  "files_b64": {
+   "payload.pkl": "gASVRAAAAAAAAAB9lCiMBmNvbmZpZ5R9lCiMBG5hbWWUjAR0ZXN0lIwFdmFsdWWUSwF1jAdyZWNvcmRzlF2UjAJ6epSMBk1BUktFUpR1Lg=="
+  },
+  "normal": {
+   "stdin": [
+    "2",
+    "payload.pkl",
+    "6"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "2",
+    "payload.pkl",
+    "6"
+   ]
+  }
+ },
+ "502_DS-1": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-2": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-3": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-4": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-5": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-6": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-7": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-8": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-9": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-10": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-13": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-14": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ },
+ "502_DS-15": {
+  "skip": true,
+  "normal": {},
+  "attack": {}
+ }
+}

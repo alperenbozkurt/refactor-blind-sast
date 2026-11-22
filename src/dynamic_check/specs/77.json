@@ -1,0 +1,388 @@
+{
+ "77_DS-1": {
+  "files": {
+   "data/a.txt": "hello world\n"
+  },
+  "normal": {
+   "argv": [
+    "--dir",
+    "data",
+    "search",
+    "hello"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "--dir",
+    "data",
+    "search",
+    "x';canary;'"
+   ]
+  }
+ },
+ "77_DS-2": {
+  "stub_resolve": true,
+  "normal": {
+   "argv": [
+    "127.0.0.1",
+    "traceroute"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "127.0.0.1;canary",
+    "traceroute"
+   ]
+  }
+ },
+ "77_DS-3": {
+  "files": {
+   "logs/app.log": "INFO start\nERROR boom\n"
+  },
+  "normal": {
+   "argv": [
+    "--dir",
+    "logs",
+    "search",
+    "ERROR"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "--dir",
+    "logs",
+    "search",
+    "x';canary;'"
+   ]
+  }
+ },
+ "77_DS-4": {
+  "normal": {
+   "argv": [
+    "--db",
+    "shop",
+    "--user",
+    "admin",
+    "backup",
+    "--tables",
+    "users"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "--db",
+    "shop",
+    "--user",
+    "admin",
+    "backup",
+    "--tables",
+    "users;canary"
+   ]
+  }
+ },
+ "77_DS-5": {
+  "normal": {
+   "argv": [
+    "process",
+    "python"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "process",
+    "x';canary;'"
+   ]
+  }
+ },
+ "77_DS-6": {
+  "normal": {
+   "argv": [
+    "test",
+    "http://localhost:9/hook"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "test",
+    "http://localhost:9/hook;canary"
+   ]
+  }
+ },
+ "77_DS-7": {
+  "files": {
+   "doc.txt": "hello\n",
+   "doc';canary;'.txt": "hello\n"
+  },
+  "normal": {
+   "argv": [
+    "convert",
+    "doc.txt",
+    "pdf"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "convert",
+    "doc';canary;'.txt",
+    "pdf"
+   ]
+  }
+ },
+ "77_DS-8": {
+  "files": {
+   "v.mp4": "x"
+  },
+  "normal": {
+   "argv": [
+    "process",
+    "v.mp4",
+    "scale=320:240"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "process",
+    "v.mp4",
+    "x';canary;'"
+   ]
+  }
+ },
+ "77_DS-9": {
+  "normal": {
+   "argv": [
+    "custom",
+    "example.com",
+    "TXT"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "custom",
+    "example.com",
+    "TXT;canary"
+   ]
+  }
+ },
+ "77_DS-10": {
+  "normal": {
+   "argv": [
+    "sysctl",
+    "ip_forward",
+    "1"
+   ]
+  },
+  "attack": {
+   "argv": [
+    "sysctl",
+    "ip_forward",
+    "1';canary;'"
+   ]
+  }
+ },
+ "77_DS-11": {
+  "files": {
+   "f.txt": "hello\n",
+   "f.txt;canary": "hello\n"
+  },
+  "normal": {
+   "stdin": [
+    "1",
+    "f.txt",
+    "9",
+    "3"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "f.txt;canary",
+    "9",
+    "3"
+   ]
+  }
+ },
+ "77_DS-12": {
+  "files_b64": {
+   "img.png": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAE0lEQVR4nGM8wcXFAANMcBZeDgAsugDk8SMK1wAAAABJRU5ErkJggg=="
+  },
+  "normal": {
+   "stdin": [
+    "1",
+    "img.png",
+    "blur",
+    "3"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "img.png",
+    "blur;canary",
+    "3"
+   ]
+  }
+ },
+ "77_DS-13": {
+  "normal": {
+   "stdin": [
+    "1",
+    "mysql",
+    "shop",
+    "admin",
+    "secret",
+    "localhost",
+    "4"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "mysql",
+    "shop",
+    "admin",
+    "secret;canary",
+    "localhost",
+    "4"
+   ]
+  }
+ },
+ "77_DS-14": {
+  "normal": {
+   "stdin": [
+    "1",
+    "nslookup",
+    "example.com",
+    "4"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "nslookup",
+    "example.com;canary",
+    "4"
+   ]
+  }
+ },
+ "77_DS-15": {
+  "files": {
+   "doc.docx": "x",
+   "doc;canary;.docx": "x"
+  },
+  "normal": {
+   "stdin": [
+    "1",
+    "doc.docx",
+    "pdf",
+    "4"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "doc;canary;.docx",
+    "pdf",
+    "4"
+   ]
+  }
+ },
+ "77_DS-16": {
+  "normal": {
+   "stdin": [
+    "1",
+    "custom",
+    "uname -a",
+    "4"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "custom",
+    "canary",
+    "4"
+   ]
+  }
+ },
+ "77_DS-17": {
+  "normal": {
+   "stdin": [
+    "1",
+    "http://example.com",
+    "chrome",
+    "2",
+    "n",
+    "4"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "http://example.com;canary",
+    "chrome",
+    "2",
+    "n",
+    "4"
+   ]
+  }
+ },
+ "77_DS-18": {
+  "files": {
+   "v.mp4": "x"
+  },
+  "normal": {
+   "stdin": [
+    "4",
+    "v.mp4",
+    "scale=320:240",
+    "6"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "4",
+    "v.mp4",
+    "scale=320:240;canary",
+    "6"
+   ]
+  }
+ },
+ "77_DS-19": {
+  "normal": {
+   "stdin": [
+    "1",
+    "example.com",
+    "custom",
+    "TXT",
+    "4"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "example.com",
+    "custom",
+    "TXT;canary",
+    "4"
+   ]
+  }
+ },
+ "77_DS-20": {
+  "normal": {
+   "stdin": [
+    "1",
+    "custom",
+    "uname -a",
+    "4"
+   ]
+  },
+  "attack": {
+   "stdin": [
+    "1",
+    "custom",
+    "canary",
+    "4"
+   ]
+  }
+ }
+}

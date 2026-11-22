@@ -1,0 +1,296 @@
+{
+ "502_DS-2": {
+  "framework": "flask",
+  "deser_marker": true,
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_template",
+     "upload": [
+      "template",
+      "f.bin",
+      "e9oCenraAU0w"
+     ]
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_template",
+     "upload": [
+      "template",
+      "f.bin",
+      "e9oCenraAU0w"
+     ]
+    }
+   ]
+  }
+ },
+ "502_DS-5": {
+  "framework": "flask",
+  "deser_marker": true,
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_plugin",
+     "upload": [
+      "plugin",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_plugin",
+     "upload": [
+      "plugin",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  }
+ },
+ "502_DS-6": {
+  "framework": "flask",
+  "deser_marker": true,
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/rules",
+     "upload": [
+      "rules",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/rules",
+     "upload": [
+      "rules",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  }
+ },
+ "502_DS-7": {
+  "framework": "flask",
+  "deser_marker": true,
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_data",
+     "upload": [
+      "data",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_data",
+     "upload": [
+      "data",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  }
+ },
+ "502_DS-8": {
+  "framework": "flask",
+  "deser_marker": true,
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_model",
+     "upload": [
+      "model",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/upload_model",
+     "upload": [
+      "model",
+      "f.bin",
+      "gASVDQAAAAAAAAB9lIwCenqUjAFNlHMu"
+     ]
+    }
+   ]
+  }
+ },
+ "502_DS-1": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVOgAAAAAAAAB9lCiMA2tleZSMAWuUjAV2YWx1ZZSMAXaUjAR0eXBllIwFc3RvcmWUjARkYXRhlH2UjAF4lEsBc3Uu",
+  "target": "AnalyticsConfig.load_from_pickle",
+  "normal": {
+   "args": [
+    "payload"
+   ]
+  },
+  "attack": {
+   "args": [
+    "payload"
+   ]
+  }
+ },
+ "502_DS-3": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVOgAAAAAAAAB9lCiMA2tleZSMAWuUjAV2YWx1ZZSMAXaUjAR0eXBllIwFc3RvcmWUjARkYXRhlH2UjAF4lEsBc3Uu",
+  "target": "DeviceConfigManager.store_config",
+  "normal": {
+   "args": [
+    "d",
+    "payload"
+   ]
+  },
+  "attack": {
+   "args": [
+    "d",
+    "payload"
+   ]
+  }
+ },
+ "502_DS-9": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVOgAAAAAAAAB9lCiMA2tleZSMAWuUjAV2YWx1ZZSMAXaUjAR0eXBllIwFc3RvcmWUjARkYXRhlH2UjAF4lEsBc3Uu",
+  "target": "CacheNode.store_data",
+  "normal": {
+   "args": [
+    "k",
+    "payload"
+   ]
+  },
+  "attack": {
+   "args": [
+    "k",
+    "payload"
+   ]
+  }
+ },
+ "502_DS-10": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVOgAAAAAAAAB9lCiMA2tleZSMAWuUjAV2YWx1ZZSMAXaUjAR0eXBllIwFc3RvcmWUjARkYXRhlH2UjAF4lEsBc3Uu",
+  "target": "IoTDeviceManager.process_firmware_update",
+  "normal": {
+   "args": [
+    "meta_dict"
+   ]
+  },
+  "attack": {
+   "args": [
+    "meta_dict"
+   ]
+  }
+ },
+ "502_DS-13": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVOgAAAAAAAAB9lCiMA2tleZSMAWuUjAV2YWx1ZZSMAXaUjAR0eXBllIwFc3RvcmWUjARkYXRhlH2UjAF4lEsBc3Uu",
+  "target": "NetworkManager._process_remote_config",
+  "normal": {
+   "args": [
+    "payload"
+   ]
+  },
+  "attack": {
+   "args": [
+    "payload"
+   ]
+  }
+ },
+ "502_DS-14": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVOgAAAAAAAAB9lCiMA2tleZSMAWuUjAV2YWx1ZZSMAXaUjAR0eXBllIwFc3RvcmWUjARkYXRhlH2UjAF4lEsBc3Uu",
+  "target": "TaskWorker._handle_client",
+  "normal": {
+   "args": [
+    "conn",
+    "addr"
+   ]
+  },
+  "attack": {
+   "args": [
+    "conn",
+    "addr"
+   ]
+  }
+ },
+ "502_DS-15": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVOgAAAAAAAAB9lCiMA2tleZSMAWuUjAV2YWx1ZZSMAXaUjAR0eXBllIwFc3RvcmWUjARkYXRhlH2UjAF4lEsBc3Uu",
+  "target": "CacheNode._handle_connection",
+  "normal": {
+   "args": [
+    "conn",
+    "addr"
+   ]
+  },
+  "attack": {
+   "args": [
+    "conn",
+    "addr"
+   ]
+  }
+ },
+ "502_DS-4": {
+  "framework": "plain",
+  "direct": true,
+  "deser_marker": true,
+  "payload_b64": "gASVDAAAAAAAAAB9lIwBa5SMAXaUcy4=",
+  "target": "TaskWorker._execute_task",
+  "normal": {
+   "args": [
+    "task_dict"
+   ]
+  },
+  "attack": {
+   "args": [
+    "task_dict"
+   ]
+  }
+ }
+}

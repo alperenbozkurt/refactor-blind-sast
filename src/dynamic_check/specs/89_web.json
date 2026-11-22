@@ -1,0 +1,384 @@
+{
+ "89_DS-1": {
+  "framework": "flask",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/search_product",
+   "params": {
+    "query": "widget"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/search_product",
+   "params": {
+    "query": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-2": {
+  "framework": "fastapi",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/employees/filter/",
+   "params": {
+    "filter_type": "department",
+    "filter_value": "IT"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/employees/filter/",
+   "params": {
+    "filter_type": "department",
+    "filter_value": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-4": {
+  "framework": "fastapi",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/cases/search",
+   "params": {
+    "query": "fraud"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/cases/search",
+   "params": {
+    "query": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-5": {
+  "framework": "pyramid",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/api/posts",
+   "params": {
+    "user_id": "1"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/api/posts",
+   "params": {
+    "user_id": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-7": {
+  "framework": "bottle",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/rooms/search",
+   "params": {
+    "room_type": "deluxe"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/rooms/search",
+   "params": {
+    "room_type": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-8": {
+  "framework": "cherrypy",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/search_books",
+   "params": {
+    "title": "python"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/search_books",
+   "params": {
+    "title": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-10": {
+  "framework": "quart",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/tickets/search",
+   "params": {
+    "q": "login"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/tickets/search",
+   "params": {
+    "q": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-11": {
+  "framework": "flask",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/books/search",
+   "params": {
+    "query": "tolkien"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/books/search",
+   "params": {
+    "query": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-12": {
+  "framework": "flask",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/search",
+   "params": {
+    "q": "tolkien"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/search",
+   "params": {
+    "q": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-13": {
+  "framework": "fastapi",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/employees/search/",
+   "params": {
+    "query": "john"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/employees/search/",
+   "params": {
+    "query": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-14": {
+  "framework": "fastapi",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "POST",
+   "path": "/search",
+   "data": {
+    "username": "john"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/search",
+   "data": {
+    "username": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-16": {
+  "framework": "pyramid",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/search",
+   "params": {
+    "q": "bob"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/search",
+   "params": {
+    "q": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-17": {
+  "framework": "bottle",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/products/search",
+   "params": {
+    "q": "widget"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/products/search",
+   "params": {
+    "q": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-20": {
+  "framework": "cherrypy",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/generate_report",
+   "params": {
+    "department": "IT"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/generate_report",
+   "params": {
+    "department": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-3": {
+  "framework": "django",
+  "direct": true,
+  "target": "search_products",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "params": {
+    "q": "widget"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "params": {
+    "q": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-15": {
+  "framework": "django",
+  "direct": true,
+  "target": "search_products",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "params": {
+    "q": "widget"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "params": {
+    "q": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-6": {
+  "framework": "tornado",
+  "direct": true,
+  "target": "AccountHandler.get",
+  "sentinel": "ZZINJ",
+  "normal": {
+   "method": "GET",
+   "params": {
+    "account_id": "1"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "params": {
+    "account_id": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-18": {
+  "framework": "tornado",
+  "direct": true,
+  "target": "LoginHandler.post",
+  "sentinel": "ZZINJ",
+  "normal": {
+   "method": "POST",
+   "json": {
+    "username": "admin",
+    "password": "x"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "json": {
+    "username": "o'ZZINJ",
+    "password": "x"
+   }
+  }
+ },
+ "89_DS-9": {
+  "framework": "sanic",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/records/search",
+   "params": {
+    "first_name": "John"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/records/search",
+   "params": {
+    "first_name": "o'ZZINJ"
+   }
+  }
+ },
+ "89_DS-19": {
+  "framework": "sanic",
+  "sentinel": "ZZINJ",
+  "seed": "init_db",
+  "normal": {
+   "method": "GET",
+   "path": "/comments/search",
+   "params": {
+    "q": "hi"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/comments/search",
+   "params": {
+    "q": "o'ZZINJ"
+   }
+  }
+ }
+}

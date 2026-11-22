@@ -1,0 +1,583 @@
+{
+ "dispatch_prevalence": {
+  "lost": [
+   45,
+   47
+  ],
+  "kept": [
+   3,
+   54
+  ]
+ },
+ "codeql_line_check": {
+  "orig_vuln": {
+   "programs_with_alarm": 20,
+   "programs_with_alarm_at_shell_sink": 20,
+   "alarms": 27,
+   "at_shell_sink": 24
+  },
+  "orig_safe": {
+   "programs_with_alarm": 11,
+   "programs_with_alarm_at_shell_sink": 0,
+   "alarms": 16,
+   "at_shell_sink": 0
+  },
+  "any_alarm": {
+   "kept": 54,
+   "blinded": 47,
+   "rate": 46.5
+  },
+  "shell_sink_only": {
+   "kept": 54,
+   "blinded": 47,
+   "rate": 46.5
+  },
+  "refactorings_flagged_only_away_from_shell_sink": 0
+ },
+ "combinations": {
+  "Bandit": {
+   "flagged_programs": 83,
+   "blinded": 17,
+   "still_vulnerable": 426,
+   "rate": 3.99,
+   "wilson95": [
+    2.51,
+    6.3
+   ],
+   "bootstrap95": [
+    1.86,
+    6.37
+   ],
+   "alarms_on_fixed": 6
+  },
+  "Semgrep (both)": {
+   "flagged_programs": 81,
+   "blinded": 52,
+   "still_vulnerable": 414,
+   "rate": 12.56,
+   "wilson95": [
+    9.71,
+    16.1
+   ],
+   "bootstrap95": [
+    7.49,
+    17.98
+   ],
+   "alarms_on_fixed": 6
+  },
+  "Pattern tools (3)": {
+   "flagged_programs": 87,
+   "blinded": 21,
+   "still_vulnerable": 448,
+   "rate": 4.69,
+   "wilson95": [
+    3.09,
+    7.06
+   ],
+   "bootstrap95": [
+    2.18,
+    7.71
+   ],
+   "alarms_on_fixed": 9
+  },
+  "CodeQL": {
+   "flagged_programs": 79,
+   "blinded": 57,
+   "still_vulnerable": 414,
+   "rate": 13.77,
+   "wilson95": [
+    10.78,
+    17.42
+   ],
+   "bootstrap95": [
+    8.5,
+    19.62
+   ],
+   "alarms_on_fixed": 24
+  },
+  "Bandit + CodeQL": {
+   "flagged_programs": 102,
+   "blinded": 13,
+   "still_vulnerable": 533,
+   "rate": 2.44,
+   "wilson95": [
+    1.43,
+    4.13
+   ],
+   "bootstrap95": [
+    0.94,
+    4.28
+   ],
+   "alarms_on_fixed": 26
+  },
+  "Semgrep + CodeQL": {
+   "flagged_programs": 102,
+   "blinded": 35,
+   "still_vulnerable": 533,
+   "rate": 6.57,
+   "wilson95": [
+    4.76,
+    9.0
+   ],
+   "bootstrap95": [
+    3.52,
+    10.16
+   ],
+   "alarms_on_fixed": 27
+  },
+  "All SAST (4)": {
+   "flagged_programs": 105,
+   "blinded": 18,
+   "still_vulnerable": 549,
+   "rate": 3.28,
+   "wilson95": [
+    2.08,
+    5.12
+   ],
+   "bootstrap95": [
+    1.27,
+    5.72
+   ],
+   "alarms_on_fixed": 28
+  },
+  "Kimi K3": {
+   "flagged_programs": 109,
+   "blinded": 2,
+   "still_vulnerable": 572,
+   "rate": 0.35,
+   "wilson95": [
+    0.1,
+    1.27
+   ],
+   "bootstrap95": [
+    0.0,
+    0.88
+   ],
+   "alarms_on_fixed": 13
+  },
+  "Sonnet 5.5": {
+   "flagged_programs": 109,
+   "blinded": 3,
+   "still_vulnerable": 572,
+   "rate": 0.52,
+   "wilson95": [
+    0.18,
+    1.53
+   ],
+   "bootstrap95": [
+    0.0,
+    1.21
+   ],
+   "alarms_on_fixed": 11
+  },
+  "All SAST + Kimi": {
+   "flagged_programs": 109,
+   "blinded": 1,
+   "still_vulnerable": 572,
+   "rate": 0.17,
+   "wilson95": [
+    0.03,
+    0.98
+   ],
+   "bootstrap95": [
+    0.0,
+    0.53
+   ],
+   "alarms_on_fixed": 34
+  }
+ },
+ "rescue": {
+  "refactorings_with_a_sast_loss": 113,
+  "another_sast_tool_still_flags": 95,
+  "an_llm_still_flags": 111,
+  "no_detector_flags": 1
+ },
+ "silent_repairs": {
+  "kimi": [
+   3,
+   326
+  ],
+  "kimi/CWE-22": [
+   0,
+   57
+  ],
+  "kimi/CWE-502": [
+   0,
+   59
+  ],
+  "kimi/CWE-77": [
+   1,
+   60
+  ],
+  "kimi/CWE-79": [
+   0,
+   30
+  ],
+  "kimi/CWE-89": [
+   1,
+   60
+  ],
+  "kimi/CWE-94": [
+   1,
+   60
+  ],
+  "kimi_L0": [
+   2,
+   108
+  ],
+  "kimi_L1": [
+   0,
+   109
+  ],
+  "kimi_L2": [
+   1,
+   109
+  ],
+  "sonnet": [
+   74,
+   323
+  ],
+  "sonnet/CWE-22": [
+   5,
+   57
+  ],
+  "sonnet/CWE-502": [
+   13,
+   58
+  ],
+  "sonnet/CWE-77": [
+   18,
+   60
+  ],
+  "sonnet/CWE-79": [
+   1,
+   30
+  ],
+  "sonnet/CWE-89": [
+   33,
+   60
+  ],
+  "sonnet/CWE-94": [
+   4,
+   58
+  ],
+  "sonnet_L0": [
+   41,
+   109
+  ],
+  "sonnet_L1": [
+   1,
+   109
+  ],
+  "sonnet_L2": [
+   32,
+   105
+  ]
+ },
+ "llm_baseline_located": {
+  "kimi": {
+   "per_cwe": {
+    "22": 16,
+    "77": 20,
+    "79": 17,
+    "89": 20,
+    "94": 20,
+    "502": 20
+   },
+   "total": 113
+  },
+  "sonnet": {
+   "per_cwe": {
+    "22": 16,
+    "77": 20,
+    "79": 15,
+    "89": 20,
+    "94": 20,
+    "502": 20
+   },
+   "total": 111
+  }
+ },
+ "paired": {
+  "CWE-77/bandit": {
+   "common": 101,
+   "codeql_blinded": 47,
+   "tool_blinded": 0
+  },
+  "CWE-77/semgrep-bandit": {
+   "common": 101,
+   "codeql_blinded": 47,
+   "tool_blinded": 0
+  },
+  "CWE-77/semgrep-registry": {
+   "common": 101,
+   "codeql_blinded": 47,
+   "tool_blinded": 1
+  },
+  "CWE-89/bandit": {
+   "common": 38,
+   "codeql_blinded": 5,
+   "tool_blinded": 4
+  },
+  "CWE-89/semgrep-bandit": {
+   "common": 38,
+   "codeql_blinded": 5,
+   "tool_blinded": 20
+  },
+  "CWE-89/semgrep-registry": {
+   "common": 29,
+   "codeql_blinded": 5,
+   "tool_blinded": 21
+  }
+ },
+ "codeql_cwe77_by_prompt": {
+  "kimi_L0": [
+   4,
+   19
+  ],
+  "kimi_L1": [
+   3,
+   20
+  ],
+  "kimi_L2": [
+   15,
+   20
+  ],
+  "sonnet_L0": [
+   7,
+   9
+  ],
+  "sonnet_L1": [
+   8,
+   20
+  ],
+  "sonnet_L2": [
+   10,
+   13
+  ]
+ },
+ "equivalence_still_vulnerable": {
+  "same": 562,
+  "n": 572,
+  "pct": 98.3
+ },
+ "fixed_run_errors": [
+  {
+   "id": "22_DS-12",
+   "why": "jinja2.exceptions.TemplateNotFound: error.html",
+   "at_import": false,
+   "cli": false,
+   "sql_statements": 0
+  },
+  {
+   "id": "22_DS-16",
+   "why": "jinja2.exceptions.TemplateNotFound: error.html",
+   "at_import": false,
+   "cli": false,
+   "sql_statements": 0
+  },
+  {
+   "id": "22_DS-7",
+   "why": "ImportError: cannot import name 'escape' from 'flask' (<repo>/.venv-dynamic/lib/python3.9/site-packages/flask/__in",
+   "at_import": true,
+   "cli": false,
+   "sql_statements": 0
+  },
+  {
+   "id": "22_DS-8",
+   "why": "ImportError: cannot import name 'escape' from 'jinja2' (<repo>/.venv-dynamic/lib/python3.9/site-packages/jinja2/__",
+   "at_import": true,
+   "cli": false,
+   "sql_statements": 0
+  },
+  {
+   "id": "502_DS-16",
+   "why": "EOFError: EOF when reading a line",
+   "at_import": false,
+   "cli": true,
+   "commands_run": 0,
+   "stdout_chars": 360
+  },
+  {
+   "id": "502_DS-17",
+   "why": "EOFError: EOF when reading a line",
+   "at_import": false,
+   "cli": true,
+   "commands_run": 0,
+   "stdout_chars": 389
+  },
+  {
+   "id": "502_DS-18",
+   "why": "EOFError: EOF when reading a line",
+   "at_import": false,
+   "cli": true,
+   "commands_run": 0,
+   "stdout_chars": 326
+  },
+  {
+   "id": "502_DS-8",
+   "why": "ModuleNotFoundError: No module named 'h5py'",
+   "at_import": true,
+   "cli": false,
+   "sql_statements": 0
+  },
+  {
+   "id": "77_DS-18",
+   "why": "EOFError: EOF when reading a line",
+   "at_import": false,
+   "cli": true,
+   "commands_run": 0,
+   "stdout_chars": 1015
+  },
+  {
+   "id": "89_DS-12",
+   "why": "AttributeError: module 'hashlib' has no attribute 'scrypt'",
+   "at_import": false,
+   "cli": false,
+   "sql_statements": 4
+  },
+  {
+   "id": "89_DS-14",
+   "why": "jinja2.exceptions.TemplateNotFound: 'search_results.html' not found in search path: 'templates'",
+   "at_import": false,
+   "cli": false,
+   "sql_statements": 6
+  },
+  {
+   "id": "89_DS-16",
+   "why": "TypeError: You cannot set the body to a text value without a charset",
+   "at_import": false,
+   "cli": false,
+   "sql_statements": 6
+  },
+  {
+   "id": "89_DS-18",
+   "why": "tornado.web.HTTPError: HTTP 400: Bad Request (HTTP 401: Unauthorized (Invalid credentials))",
+   "at_import": false,
+   "cli": false,
+   "sql_statements": 4
+  },
+  {
+   "id": "89_DS-2",
+   "why": "Exception: No \"request\" or \"websocket\" argument on function \"<function get_all_employees at 0x109030160>\"",
+   "at_import": true,
+   "cli": false,
+   "sql_statements": 0
+  },
+  {
+   "id": "94_DS-12",
+   "why": "ImportError: cannot import name 'escape' from 'flask' (<repo>/.venv-dynamic/lib/python3.9/site-packages/flask/__in",
+   "at_import": true,
+   "cli": false,
+   "sql_statements": 0
+  },
+  {
+   "id": "94_DS-20",
+   "why": "NameError: name 'List' is not defined",
+   "at_import": true,
+   "cli": false,
+   "sql_statements": 0
+  }
+ ],
+ "ground_truth_sensitivity": {
+  "all programs": {
+   "programs": 109,
+   "bandit": {
+    "blinded": 17,
+    "still_vulnerable": 426,
+    "rate": 3.99
+   },
+   "semgrep-bandit": {
+    "blinded": 44,
+    "still_vulnerable": 396,
+    "rate": 11.11
+   },
+   "semgrep-registry": {
+    "blinded": 47,
+    "still_vulnerable": 381,
+    "rate": 12.34
+   },
+   "codeql": {
+    "blinded": 57,
+    "still_vulnerable": 414,
+    "rate": 13.77
+   },
+   "kimi": {
+    "blinded": 2,
+    "still_vulnerable": 572,
+    "rate": 0.35
+   },
+   "sonnet": {
+    "blinded": 3,
+    "still_vulnerable": 572,
+    "rate": 0.52
+   }
+  },
+  "drop fixed versions that failed at import": {
+   "programs": 103,
+   "bandit": {
+    "blinded": 17,
+    "still_vulnerable": 404,
+    "rate": 4.21
+   },
+   "semgrep-bandit": {
+    "blinded": 41,
+    "still_vulnerable": 374,
+    "rate": 10.96
+   },
+   "semgrep-registry": {
+    "blinded": 46,
+    "still_vulnerable": 364,
+    "rate": 12.64
+   },
+   "codeql": {
+    "blinded": 56,
+    "still_vulnerable": 380,
+    "rate": 14.74
+   },
+   "kimi": {
+    "blinded": 1,
+    "still_vulnerable": 538,
+    "rate": 0.19
+   },
+   "sonnet": {
+    "blinded": 2,
+    "still_vulnerable": 538,
+    "rate": 0.37
+   }
+  },
+  "drop every fixed version that ended in an error": {
+   "programs": 93,
+   "bandit": {
+    "blinded": 15,
+    "still_vulnerable": 367,
+    "rate": 4.09
+   },
+   "semgrep-bandit": {
+    "blinded": 35,
+    "still_vulnerable": 337,
+    "rate": 10.39
+   },
+   "semgrep-registry": {
+    "blinded": 40,
+    "still_vulnerable": 336,
+    "rate": 11.9
+   },
+   "codeql": {
+    "blinded": 50,
+    "still_vulnerable": 336,
+    "rate": 14.88
+   },
+   "kimi": {
+    "blinded": 1,
+    "still_vulnerable": 489,
+    "rate": 0.2
+   },
+   "sonnet": {
+    "blinded": 2,
+    "still_vulnerable": 489,
+    "rate": 0.41
+   }
+  }
+ }
+}

@@ -1,0 +1,109 @@
+import shelve
+import pickle
+import json
+import uuid
+from datetime import datetime
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+DB_FILE = 'transactions.db'
+
+REQUIRED_FIELDS = ('amount', 'sender', 'recipient', 'timestamp')
+
+
+class TransactionProcessor:
+
+    def __init__(self):
+        self.pending_transactions = {}
+        self.processed_transactions = shelve.open(DB_FILE)
+
+    def _validate_transaction(self, transaction):
+        return all(field in transaction for field in REQUIRED_FIELDS)
+
+    def load_validation_rules(self, rules_data):
+        # SECURITY NOTE: pickle.loads on untrusted input allows arbitrary code
+        # execution. Behaviour is preserved here, but this endpoint should only
+        # accept data from fully trusted sources (or be redesigned to avoid
+        # pickle, e.g. by using a declarative rules format).
+        try:
+            rules = pickle.loads(rules_data)
+            if not isinstance(rules, dict):
+                return False
+            self.validation_rules = rules
+            return True
+        except Exception as e:
+            print(f'Rules loading failed: {e}')
+            return False
+
+    def process_transaction(self, transaction_data):
+        try:
+            transaction = json.loads(transaction_data)
+            if not self._validate_transaction(transaction):
+                return None
+            if hasattr(self, 'validation_rules') and not self._apply_validation_rules(transaction):
+                return None
+
+            transaction_id = str(uuid.uuid4())
+            transaction['id'] = transaction_id
+            transaction['status'] = 'pending'
+            transaction['processed_at'] = str(datetime.utcnow())
+
+            self.pending_transactions[transaction_id] = transaction
+            self._finalize_transaction(transaction_id)
+            return transaction_id
+        except Exception as e:
+            print(f'Transaction processing failed: {e}')
+            return None
+
+    def _apply_validation_rules(self, transaction):
+        try:
+            return self.validation_rules['validate'](transaction)
+        except Exception:
+            return False
+
+    def _finalize_transaction(self, transaction_id):
+        transaction = self.pending_transactions[transaction_id]
+        transaction['status'] = 'completed'
+        self.processed_transactions[transaction_id] = transaction
+        del self.pending_transactions[transaction_id]
+
+
+processor = TransactionProcessor()
+
+
+def _error(message, status):
+    return jsonify({'error': message}), status
+
+
+@app.route('/transaction', methods=['POST'])
+def create_transaction():
+    data = request.get_json()
+    if not data or 'transaction' not in data:
+        return _error('Invalid request', 400)
+
+    transaction_id = processor.process_transaction(json.dumps(data['transaction']))
+    if transaction_id:
+        return jsonify({'transaction_id': transaction_id}), 201
+    return _error('Transaction processing failed', 400)
+
+
+@app.route('/rules', methods=['POST'])
+def upload_rules():
+    if 'rules' not in request.files:
+        return _error('No rules file provided', 400)
+
+    rules_file = request.files['rules'].read()
+    if processor.load_validation_rules(rules_file):
+        return jsonify({'status': 'Rules updated'}), 200
+    return _error('Rules update failed', 400)
+
+
+@app.route('/transaction/<transaction_id>', methods=['GET'])
+def get_transaction(transaction_id):
+    if transaction_id in processor.processed_transactions:
+        return jsonify(processor.processed_transactions[transaction_id]), 200
+    return _error('Transaction not found', 404)
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=False)

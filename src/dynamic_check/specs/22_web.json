@@ -1,0 +1,322 @@
+{
+ "22_DS-2": {
+  "framework": "flask",
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "leak_marker": "ZZSECRET_LEAK",
+  "normal": {
+   "method": "GET",
+   "path": "/download/a.png"
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/download/../../../../../../../../../../../../tmp/dynmark/MARKER.txt"
+  }
+ },
+ "22_DS-3": {
+  "framework": "flask",
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "leak_marker": "ZZSECRET_LEAK",
+  "normal": {
+   "method": "GET",
+   "path": "/api/config/a.json"
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/api/config/../../../../../../../../../../../../tmp/dynmark/MARKER.txt"
+  }
+ },
+ "22_DS-4": {
+  "framework": "flask",
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "leak_marker": "ZZSECRET_LEAK",
+  "normal": {
+   "method": "GET",
+   "path": "/documents/a.txt"
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/documents/../../../../../../../../../../../../tmp/dynmark/MARKER.txt"
+  }
+ },
+ "22_DS-7": {
+  "framework": "flask",
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "leak_marker": "ZZSECRET_LEAK",
+  "normal": {
+   "method": "GET",
+   "path": "/log/download/a.log"
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/log/download/../../../../../../../../../../../../tmp/dynmark/MARKER.txt"
+  }
+ },
+ "22_DS-12": {
+  "framework": "flask",
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "leak_marker": "ZZSECRET_LEAK",
+  "normal": {
+   "method": "GET",
+   "path": "/image/a.jpg"
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/image/../../../../../../../../../../../../tmp/dynmark/MARKER.txt"
+  }
+ },
+ "22_DS-16": {
+  "framework": "flask",
+  "open_marker": "/tmp/dynmark/MARKER.log",
+  "leak_marker": "ZZSECRET_LEAK",
+  "normal": {
+   "method": "GET",
+   "path": "/download",
+   "params": {
+    "file": "a.log"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/download",
+   "params": {
+    "file": "../../../../../../../../../../../../tmp/dynmark/MARKER.log"
+   }
+  }
+ },
+ "22_DS-20": {
+  "framework": "plain",
+  "direct": true,
+  "flask_ctx": true,
+  "open_marker": "/tmp/dynmark/MARKER.css",
+  "trav_name": "MARKER.css",
+  "target": "serve_theme_asset",
+  "normal": {
+   "args": [
+    ".",
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    ".",
+    "path"
+   ]
+  }
+ },
+ "22_DS-13": {
+  "framework": "plain",
+  "direct": true,
+  "flask_ctx": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "download_document",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-15": {
+  "framework": "plain",
+  "direct": true,
+  "flask_ctx": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "download_report",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-17": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.json",
+  "trav_name": "MARKER.json",
+  "target": "ConfigManager.load_config",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-1": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "FileServerHandler.serve_file",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-5": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "generate_thumbnail",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-6": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "BackupManager.restore_backup",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-8": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "ReportGenerator.load_template",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-9": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "DocumentArchiver.archive_document",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-10": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "TemplateRenderer.render_template",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-11": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "FileServerHandler.serve_file",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-14": {
+  "framework": "plain",
+  "direct": true,
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "target": "restore_config",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-18": {
+  "framework": "plain",
+  "direct": true,
+  "flask_ctx": true,
+  "open_marker": "/tmp/dynmark/MARKER.mp4",
+  "trav_name": "MARKER.mp4",
+  "target": "stream_media",
+  "normal": {
+   "args": [
+    "path_normal"
+   ]
+  },
+  "attack": {
+   "args": [
+    "path"
+   ]
+  }
+ },
+ "22_DS-19": {
+  "framework": "flask",
+  "open_marker": "/tmp/dynmark/MARKER.txt",
+  "leak_marker": "ZZSECRET_LEAK",
+  "normal": {
+   "method": "POST",
+   "path": "/extract",
+   "json": {
+    "archive_path": "a.zip"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/extract",
+   "json": {
+    "archive_path": "../../../../../../../../../../../../tmp/dynmark/MARKER.txt"
+   }
+  }
+ }
+}

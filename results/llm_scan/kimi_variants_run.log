@@ -1,0 +1,84 @@
+scan kimi variants: 3 done, 1431 to do, spent so far $0.04
+   scan kimi variants: 20/1431  $0.27  ~44 min left
+   scan kimi variants: 40/1431  $0.59  ~50 min left
+   scan kimi variants: 60/1431  $0.89  ~48 min left
+   scan kimi variants: 80/1431  $1.16  ~47 min left
+   scan kimi variants: 100/1431  $1.46  ~47 min left
+   scan kimi variants: 120/1431  $1.80  ~47 min left
+   scan kimi variants: 140/1431  $2.12  ~47 min left
+   scan kimi variants: 160/1431  $2.44  ~46 min left
+   scan kimi variants: 180/1431  $2.76  ~46 min left
+   scan kimi variants: 200/1431  $3.04  ~45 min left
+   scan kimi variants: 220/1431  $3.33  ~44 min left
+   scan kimi variants: 240/1431  $3.61  ~43 min left
+   scan kimi variants: 260/1431  $3.97  ~43 min left
+   scan kimi variants: 280/1431  $4.25  ~42 min left
+   scan kimi variants: 300/1431  $4.51  ~41 min left
+   scan kimi variants: 320/1431  $4.82  ~40 min left
+scan kimi variants: 340 done, 1094 to do, spent so far $5.08
+scan kimi variants: 344 done, 1090 to do, spent so far $5.13
+   scan kimi variants: 20/1090  $5.46  ~51 min left
+   scan kimi variants: 40/1090  $5.76  ~44 min left
+   scan kimi variants: 60/1090  $6.12  ~44 min left
+   scan kimi variants: 80/1090  $6.39  ~40 min left
+   scan kimi variants: 100/1090  $6.74  ~40 min left
+   scan kimi variants: 120/1090  $7.05  ~38 min left
+   scan kimi variants: 140/1090  $7.39  ~38 min left
+   scan kimi variants: 160/1090  $7.67  ~36 min left
+   scan kimi variants: 180/1090  $7.95  ~35 min left
+   scan kimi variants: 200/1090  $8.22  ~34 min left
+   scan kimi variants: 220/1090  $8.55  ~34 min left
+   scan kimi variants: 240/1090  $8.97  ~34 min left
+   scan kimi variants: 260/1090  $9.30  ~33 min left
+   scan kimi variants: 280/1090  $9.55  ~31 min left
+   scan kimi variants: 300/1090  $9.89  ~31 min left
+   scan kimi variants: 320/1090  $10.19  ~30 min left
+   scan kimi variants: 340/1090  $10.51  ~29 min left
+   scan kimi variants: 360/1090  $10.80  ~28 min left
+   scan kimi variants: 380/1090  $11.14  ~28 min left
+   scan kimi variants: 400/1090  $11.46  ~27 min left
+   scan kimi variants: 420/1090  $11.72  ~26 min left
+   scan kimi variants: 440/1090  $12.03  ~25 min left
+   scan kimi variants: 460/1090  $12.36  ~24 min left
+   scan kimi variants: 480/1090  $12.68  ~23 min left
+   scan kimi variants: 500/1090  $12.96  ~22 min left
+   scan kimi variants: 520/1090  $13.32  ~22 min left
+   scan kimi variants: 540/1090  $13.65  ~21 min left
+   scan kimi variants: 560/1090  $13.96  ~20 min left
+   scan kimi variants: 580/1090  $14.31  ~20 min left
+   scan kimi variants: 600/1090  $14.60  ~19 min left
+   scan kimi variants: 620/1090  $14.87  ~18 min left
+   scan kimi variants: 640/1090  $15.15  ~17 min left
+   scan kimi variants: 660/1090  $15.44  ~16 min left
+   scan kimi variants: 680/1090  $15.74  ~15 min left
+   scan kimi variants: 700/1090  $16.06  ~15 min left
+   scan kimi variants: 720/1090  $16.39  ~14 min left
+   scan kimi variants: 740/1090  $16.70  ~13 min left
+   scan kimi variants: 760/1090  $17.03  ~12 min left
+   scan kimi variants: 780/1090  $17.43  ~12 min left
+   scan kimi variants: 800/1090  $17.71  ~11 min left
+   scan kimi variants: 820/1090  $18.08  ~10 min left
+   scan kimi variants: 840/1090  $18.35  ~9 min left
+   scan kimi variants: 860/1090  $18.65  ~9 min left
+   scan kimi variants: 880/1090  $18.98  ~8 min left
+   scan kimi variants: 900/1090  $19.24  ~7 min left
+   scan kimi variants: 920/1090  $19.54  ~6 min left
+   scan kimi variants: 940/1090  $19.85  ~6 min left
+   scan kimi variants: 960/1090  $20.20  ~5 min left
+   scan kimi variants: 980/1090  $20.54  ~4 min left
+   scan kimi variants: 1000/1090  $20.89  ~3 min left
+   scan kimi variants: 1020/1090  $21.23  ~3 min left
+   scan kimi variants: 1040/1090  $21.49  ~2 min left
+   scan kimi variants: 1060/1090  $21.83  ~1 min left
+   scan kimi variants: 1080/1090  $22.18  ~0 min left
+   scan kimi variants: 1090/1090  $22.33  ~0 min left
+scan kimi variants: finished 1090 jobs, 0 errors, total spent $22.33
+
+kimi / variants: 1434 programs, up to 1 answers each (majority vote), 0 unreadable answers
+CWE 22   vulnerable flagged  115/120  (located   82) | fixed flagged   37/120 
+CWE 77   vulnerable flagged  103/120  (located   88) | fixed flagged    3/120 
+CWE 79   vulnerable flagged  117/120  (located   61) | fixed flagged    6/120 
+CWE 89   vulnerable flagged   86/120  (located   54) | fixed flagged    0/119 
+CWE 94   vulnerable flagged  111/118  (located   94) | fixed flagged    0/120 
+CWE 502  vulnerable flagged  107/117  (located   91) | fixed flagged   21/120 
+CWE all  vulnerable flagged  639/715  (located  470) | fixed flagged   67/719 

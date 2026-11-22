@@ -1,0 +1,268 @@
+[
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "safe",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, custom\nAvailable custom operations: count, total_items\n> Unknown command: process. Available: add, remove, list, search, custom\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "variant": "ORIG",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 1\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 9173337\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "variant": "kimi_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 1\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 9173337\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "variant": "kimi_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 1\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 9173337\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "variant": "kimi_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 1\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 9173337\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "variant": "sonnet_L0",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 1\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 9173337\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "variant": "sonnet_L1",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 1\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 9173337\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ },
+ {
+  "id": "94_DS-11",
+  "kind": "vuln",
+  "variant": "sonnet_L2",
+  "normal": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 1\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": false
+  },
+  "attack": {
+   "exit": 0,
+   "stdout": "Inventory Management System\nAvailable commands: add, remove, list, search, process\n> Command executed successfully: 9173337\n> ",
+   "stderr_tail": "",
+   "commands": [],
+   "exploited": true
+  }
+ }
+]

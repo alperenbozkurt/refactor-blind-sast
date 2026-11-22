@@ -1,0 +1,465 @@
+{
+ "ground_truth_programs": 109,
+ "located": {
+  "bandit": {
+   "found_orig": 80,
+   "kept": 302,
+   "blinded": 108,
+   "fixed": 65,
+   "blind_pct": 26.34,
+   "wilson95": [
+    22.31,
+    30.81
+   ],
+   "cluster_boot95": [
+    20.3,
+    32.68
+   ]
+  },
+  "semgrep-bandit": {
+   "found_orig": 78,
+   "kept": 287,
+   "fixed": 67,
+   "blinded": 109,
+   "blind_pct": 27.53,
+   "wilson95": [
+    23.36,
+    32.12
+   ],
+   "cluster_boot95": [
+    20.61,
+    34.78
+   ]
+  },
+  "semgrep-registry": {
+   "found_orig": 74,
+   "kept": 276,
+   "fixed": 58,
+   "blinded": 105,
+   "blind_pct": 27.56,
+   "wilson95": [
+    23.31,
+    32.25
+   ],
+   "cluster_boot95": [
+    20.54,
+    35.03
+   ]
+  },
+  "codeql": {
+   "found_orig": 77,
+   "kept": 297,
+   "fixed": 56,
+   "blinded": 106,
+   "blind_pct": 26.3,
+   "wilson95": [
+    22.24,
+    30.81
+   ],
+   "cluster_boot95": [
+    19.42,
+    33.75
+   ]
+  },
+  "kimi": {
+   "found_orig": 104,
+   "kept": 433,
+   "blinded": 111,
+   "fixed": 75,
+   "blind_pct": 20.4,
+   "wilson95": [
+    17.23,
+    23.99
+   ],
+   "cluster_boot95": [
+    15.9,
+    25.23
+   ]
+  },
+  "sonnet": {
+   "found_orig": 105,
+   "kept": 423,
+   "blinded": 127,
+   "fixed": 75,
+   "blind_pct": 23.09,
+   "wilson95": [
+    19.76,
+    26.79
+   ],
+   "cluster_boot95": [
+    18.46,
+    28.01
+   ]
+  }
+ },
+ "flagged": {
+  "bandit": {
+   "found_orig": 83,
+   "kept": 409,
+   "fixed": 67,
+   "blinded": 17,
+   "blind_pct": 3.99,
+   "wilson95": [
+    2.51,
+    6.3
+   ],
+   "cluster_boot95": [
+    1.86,
+    6.37
+   ]
+  },
+  "semgrep-bandit": {
+   "found_orig": 78,
+   "kept": 352,
+   "fixed": 67,
+   "blinded": 44,
+   "blind_pct": 11.11,
+   "wilson95": [
+    8.38,
+    14.59
+   ],
+   "cluster_boot95": [
+    6.24,
+    16.54
+   ]
+  },
+  "semgrep-registry": {
+   "found_orig": 74,
+   "kept": 334,
+   "fixed": 58,
+   "blinded": 47,
+   "blind_pct": 12.34,
+   "wilson95": [
+    9.4,
+    16.02
+   ],
+   "cluster_boot95": [
+    6.89,
+    18.32
+   ]
+  },
+  "codeql": {
+   "found_orig": 79,
+   "kept": 357,
+   "fixed": 57,
+   "blinded": 57,
+   "blind_pct": 13.77,
+   "wilson95": [
+    10.78,
+    17.42
+   ],
+   "cluster_boot95": [
+    8.5,
+    19.62
+   ]
+  },
+  "kimi": {
+   "found_orig": 109,
+   "kept": 570,
+   "fixed": 77,
+   "blinded": 2,
+   "blind_pct": 0.35,
+   "wilson95": [
+    0.1,
+    1.27
+   ],
+   "cluster_boot95": [
+    0.0,
+    0.88
+   ]
+  },
+  "sonnet": {
+   "found_orig": 109,
+   "kept": 569,
+   "fixed": 77,
+   "blinded": 3,
+   "blind_pct": 0.52,
+   "wilson95": [
+    0.18,
+    1.53
+   ],
+   "cluster_boot95": [
+    0.0,
+    1.21
+   ]
+  }
+ },
+ "per_cwe_flagged": {
+  "bandit": {
+   "22": {
+    "base": 3,
+    "blinded": 0,
+    "kept": 18,
+    "fixed": 0
+   },
+   "77": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 101,
+    "fixed": 19
+   },
+   "79": {
+    "base": 2,
+    "blinded": 3,
+    "kept": 9,
+    "fixed": 0
+   },
+   "89": {
+    "base": 18,
+    "blinded": 11,
+    "kept": 67,
+    "fixed": 30
+   },
+   "94": {
+    "base": 20,
+    "blinded": 1,
+    "kept": 112,
+    "fixed": 5
+   },
+   "502": {
+    "base": 20,
+    "blinded": 2,
+    "kept": 102,
+    "fixed": 13
+   }
+  },
+  "semgrep-bandit": {
+   "22": {
+    "base": 0,
+    "blinded": 0,
+    "kept": 0,
+    "fixed": 0
+   },
+   "77": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 101,
+    "fixed": 19
+   },
+   "79": {
+    "base": 0,
+    "blinded": 0,
+    "kept": 0,
+    "fixed": 0
+   },
+   "89": {
+    "base": 18,
+    "blinded": 39,
+    "kept": 39,
+    "fixed": 30
+   },
+   "94": {
+    "base": 20,
+    "blinded": 3,
+    "kept": 110,
+    "fixed": 5
+   },
+   "502": {
+    "base": 20,
+    "blinded": 2,
+    "kept": 102,
+    "fixed": 13
+   }
+  },
+  "semgrep-registry": {
+   "22": {
+    "base": 0,
+    "blinded": 0,
+    "kept": 0,
+    "fixed": 0
+   },
+   "77": {
+    "base": 20,
+    "blinded": 1,
+    "kept": 100,
+    "fixed": 19
+   },
+   "79": {
+    "base": 3,
+    "blinded": 8,
+    "kept": 10,
+    "fixed": 0
+   },
+   "89": {
+    "base": 11,
+    "blinded": 33,
+    "kept": 12,
+    "fixed": 21
+   },
+   "94": {
+    "base": 20,
+    "blinded": 3,
+    "kept": 110,
+    "fixed": 5
+   },
+   "502": {
+    "base": 20,
+    "blinded": 2,
+    "kept": 102,
+    "fixed": 13
+   }
+  },
+  "codeql": {
+   "22": {
+    "base": 19,
+    "blinded": 0,
+    "kept": 109,
+    "fixed": 5
+   },
+   "77": {
+    "base": 20,
+    "blinded": 47,
+    "kept": 54,
+    "fixed": 19
+   },
+   "79": {
+    "base": 2,
+    "blinded": 0,
+    "kept": 12,
+    "fixed": 0
+   },
+   "89": {
+    "base": 10,
+    "blinded": 5,
+    "kept": 37,
+    "fixed": 18
+   },
+   "94": {
+    "base": 15,
+    "blinded": 3,
+    "kept": 80,
+    "fixed": 5
+   },
+   "502": {
+    "base": 13,
+    "blinded": 2,
+    "kept": 65,
+    "fixed": 10
+   }
+  },
+  "kimi": {
+   "22": {
+    "base": 19,
+    "blinded": 0,
+    "kept": 109,
+    "fixed": 5
+   },
+   "77": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 101,
+    "fixed": 19
+   },
+   "79": {
+    "base": 10,
+    "blinded": 0,
+    "kept": 59,
+    "fixed": 1
+   },
+   "89": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 86,
+    "fixed": 34
+   },
+   "94": {
+    "base": 20,
+    "blinded": 2,
+    "kept": 111,
+    "fixed": 5
+   },
+   "502": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 104,
+    "fixed": 13
+   }
+  },
+  "sonnet": {
+   "22": {
+    "base": 19,
+    "blinded": 0,
+    "kept": 109,
+    "fixed": 5
+   },
+   "77": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 101,
+    "fixed": 19
+   },
+   "79": {
+    "base": 10,
+    "blinded": 0,
+    "kept": 59,
+    "fixed": 1
+   },
+   "89": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 86,
+    "fixed": 34
+   },
+   "94": {
+    "base": 20,
+    "blinded": 3,
+    "kept": 110,
+    "fixed": 5
+   },
+   "502": {
+    "base": 20,
+    "blinded": 0,
+    "kept": 104,
+    "fixed": 13
+   }
+  }
+ },
+ "per_prompt_sast_flagged": {
+  "kimi_L0": {
+   "blinded": 21,
+   "total": 226
+  },
+  "kimi_L1": {
+   "blinded": 12,
+   "total": 235
+  },
+  "kimi_L2": {
+   "blinded": 38,
+   "total": 232
+  },
+  "sonnet_L0": {
+   "blinded": 6,
+   "total": 132
+  },
+  "sonnet_L1": {
+   "blinded": 19,
+   "total": 232
+  },
+  "sonnet_L2": {
+   "blinded": 12,
+   "total": 146
+  }
+ },
+ "llm_noise_floor": {
+  "kimi": {
+   "flagged": [
+    1,
+    240
+   ],
+   "located": [
+    1,
+    224
+   ]
+  },
+  "sonnet": {
+   "flagged": [
+    0,
+    238
+   ],
+   "located": [
+    1,
+    222
+   ]
+  }
+ }
+}

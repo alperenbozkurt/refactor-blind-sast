@@ -1,0 +1,384 @@
+{
+ "94_DS-2": {
+  "framework": "bottle",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/search",
+   "params": {
+    "filter": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/search",
+   "params": {
+    "filter": "9173337"
+   }
+  },
+  "extra": {
+   "files": {
+    "user_data.json": "{\"users\":[{\"name\":\"a\",\"age\":20}]}"
+   }
+  }
+ },
+ "94_DS-5": {
+  "framework": "pyramid",
+  "direct": true,
+  "target": "generate_view",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "params": {
+    "report_type": "sales",
+    "custom_logic": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "params": {
+    "report_type": "sales",
+    "custom_logic": "9173337"
+   }
+  }
+ },
+ "94_DS-13": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/api/products/filter",
+   "json": {
+    "filter": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/api/products/filter",
+   "json": {
+    "filter": "9173337"
+   }
+  }
+ },
+ "94_DS-14": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/api/config",
+   "json": {
+    "config": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/api/config",
+   "json": {
+    "config": "9173337"
+   }
+  }
+ },
+ "94_DS-17": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/api/rules/math",
+   "json": {
+    "expression": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/api/rules/math",
+   "json": {
+    "expression": "9173337"
+   }
+  }
+ },
+ "94_DS-18": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/api/calculate",
+   "json": {
+    "expression": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/api/calculate",
+   "json": {
+    "expression": "9173337"
+   }
+  }
+ },
+ "94_DS-19": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/api/expressions/evaluate",
+   "json": {
+    "expression": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/api/expressions/evaluate",
+   "json": {
+    "expression": "9173337"
+   }
+  }
+ },
+ "94_DS-20": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/api/direct-validate",
+   "json": {
+    "value": "1",
+    "expression": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/api/direct-validate",
+   "json": {
+    "value": "1",
+    "expression": "9173337"
+   }
+  }
+ },
+ "94_DS-4": {
+  "framework": "fastapi",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/calculate",
+   "data": {
+    "product_type": "x",
+    "discount_logic": "1",
+    "quantity": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/calculate",
+   "data": {
+    "product_type": "x",
+    "discount_logic": "9173337",
+    "quantity": "1"
+   }
+  }
+ },
+ "94_DS-1": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/",
+   "params": {
+    "id": "1",
+    "name": "x",
+    "quantity": "1",
+    "price": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/",
+   "params": {
+    "id": "1",
+    "name": "9173337",
+    "quantity": "1",
+    "price": "1"
+   }
+  }
+ },
+ "94_DS-3": {
+  "framework": "tornado",
+  "direct": true,
+  "target": "TemplateHandler.post",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "params": {
+    "name": "t",
+    "content": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "params": {
+    "name": "t",
+    "content": "9173337"
+   }
+  }
+ },
+ "94_DS-6": {
+  "framework": "sanic",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/evaluate",
+   "data": {
+    "config_name": "c",
+    "config_logic": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/evaluate",
+   "data": {
+    "config_name": "c",
+    "config_logic": "9173337"
+   }
+  }
+ },
+ "94_DS-7": {
+  "framework": "cherrypy",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "GET",
+   "path": "/execute",
+   "params": {
+    "workflow_id": "w",
+    "step_logic": "1"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/execute",
+   "params": {
+    "workflow_id": "w",
+    "step_logic": "9173337"
+   }
+  }
+ },
+ "94_DS-8": {
+  "framework": "quart",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/api",
+   "data": {
+    "template_type": "x",
+    "custom_logic": "1"
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/api",
+   "data": {
+    "template_type": "x",
+    "custom_logic": "9173337"
+   }
+  }
+ },
+ "94_DS-9": {
+  "framework": "falcon",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/evaluate",
+   "json": {
+    "rule_name": "r",
+    "rule_expression": "1",
+    "data": {}
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/evaluate",
+   "json": {
+    "rule_name": "r",
+    "rule_expression": "9173337",
+    "data": {}
+   }
+  }
+ },
+ "94_DS-10": {
+  "framework": "aiohttp",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "path": "/transform",
+   "json": {
+    "transform_code": "1",
+    "data": {}
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "path": "/transform",
+   "json": {
+    "transform_code": "9173337",
+    "data": {}
+   }
+  }
+ },
+ "94_DS-11": {
+  "framework": "skip"
+ },
+ "94_DS-12": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "GET",
+   "path": "/admin/actions",
+   "params": {
+    "token": "SECRET_ADMIN_TOKEN",
+    "action": "1"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/admin/actions",
+   "params": {
+    "token": "SECRET_ADMIN_TOKEN",
+    "action": "9173337"
+   }
+  }
+ },
+ "94_DS-15": {
+  "framework": "flask",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "GET",
+   "path": "/api/products",
+   "headers": {
+    "Authorization": "1"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "path": "/api/products",
+   "headers": {
+    "Authorization": "9173337"
+   }
+  }
+ },
+ "94_DS-16": {
+  "framework": "django",
+  "direct": true,
+  "target": "TemplateAPI.post",
+  "code_marker": "9173337",
+  "normal": {
+   "method": "POST",
+   "json": {
+    "template": "1",
+    "context": {}
+   }
+  },
+  "attack": {
+   "method": "POST",
+   "json": {
+    "template": "9173337",
+    "context": {}
+   }
+  }
+ }
+}

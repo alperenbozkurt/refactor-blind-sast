@@ -1,0 +1,186 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+from django.views import View
+from django.conf import settings
+from django.urls import path
+from django.core.wsgi import get_wsgi_application
+import os
+
+# ---------------------------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------------------------
+
+DJANGO_SETTINGS = {
+    'DEBUG': True,
+    'SECRET_KEY': 'secret',
+    'ROOT_URLCONF': __name__,
+    'TEMPLATES': [
+        {
+            'BACKEND': 'django.template.backends.django.DjangoTemplates',
+            'DIRS': [],
+        }
+    ],
+}
+
+settings.configure(**DJANGO_SETTINGS)
+
+NOT_FOUND_STATUS = 404
+PRODUCT_NOT_FOUND_MESSAGE = 'Product not found'
+SEARCH_QUERY_PARAM = 'query'
+RUNSERVER_ARGV = ['manage.py', 'runserver']
+
+
+# ---------------------------------------------------------------------------
+# Domain model
+# ---------------------------------------------------------------------------
+
+class Product:
+
+    def __init__(self, id, name, price):
+        self.id = id
+        self.name = name
+        self.price = price
+
+
+PRODUCTS = [
+    Product(1, 'Laptop', 999.99),
+    Product(2, 'Phone', 699.99),
+    Product(3, 'Tablet', 399.99),
+]
+
+
+# ---------------------------------------------------------------------------
+# Data access helpers
+# ---------------------------------------------------------------------------
+
+def _find_product(product_id):
+    """Return the product with the given id, or None if it does not exist."""
+    return next((p for p in PRODUCTS if p.id == product_id), None)
+
+
+def _search_products(query):
+    """Return products whose name contains ``query`` (case-insensitive)."""
+    needle = query.lower()
+    return [p for p in PRODUCTS if needle in p.name.lower()]
+
+
+# ---------------------------------------------------------------------------
+# HTML rendering helpers
+# ---------------------------------------------------------------------------
+
+def _product_list_items_html(products):
+    return ''.join(
+        f'<li>{p.name} - ${p.price} <a href="/product/{p.id}">View</a></li>'
+        for p in products
+    )
+
+
+def _search_result_items_html(products):
+    return ''.join(f'<li>{p.name} - ${p.price}</li>' for p in products)
+
+
+def _home_html():
+    return (
+        '\n            <h1>Welcome to Our Store</h1>\n'
+        '            <form action="/search" method="GET">\n'
+        '                <input type="text" name="query" placeholder="Search products...">\n'
+        '                <button type="submit">Search</button>\n'
+        '            </form>\n'
+        '            <a href="/products">View All Products</a>\n'
+        '        '
+    )
+
+
+def _product_list_html(products):
+    products_html = _product_list_items_html(products)
+    return (
+        '\n            <h1>Our Products</h1>\n'
+        f'            <ul>{products_html}</ul>\n'
+        '            <a href="/">Back to Home</a>\n'
+        '        '
+    )
+
+
+def _product_detail_html(product):
+    return (
+        f'\n            <h1>{product.name}</h1>\n'
+        f'            <p>Price: ${product.price}</p>\n'
+        '            <a href="/products">Back to Products</a>\n'
+        '        '
+    )
+
+
+def _search_no_results_html(query):
+    # Note: the query is intentionally rendered as-is to preserve existing behaviour.
+    return (
+        '\n                <h1>Search Results</h1>\n'
+        f'                <p>No products found for "<span style="color:red">{query}</span>"</p>\n'
+        '                <a href="/products">View All Products</a>\n'
+        '            '
+    )
+
+
+def _search_results_html(query, results):
+    # Note: the query is intentionally rendered as-is to preserve existing behaviour.
+    results_html = _search_result_items_html(results)
+    return (
+        '\n            <h1>Search Results</h1>\n'
+        f'            <p>Results for "<span style="color:red">{query}</span>":</p>\n'
+        f'            <ul>{results_html}</ul>\n'
+        '            <a href="/products">Back to Products</a>\n'
+        '        '
+    )
+
+
+# ---------------------------------------------------------------------------
+# Views
+# ---------------------------------------------------------------------------
+
+class HomeView(View):
+
+    def get(self, request):
+        return HttpResponse(_home_html())
+
+
+class ProductListView(View):
+
+    def get(self, request):
+        return HttpResponse(_product_list_html(PRODUCTS))
+
+
+class ProductDetailView(View):
+
+    def get(self, request, product_id):
+        product = _find_product(product_id)
+        if not product:
+            return HttpResponse(PRODUCT_NOT_FOUND_MESSAGE, status=NOT_FOUND_STATUS)
+        return HttpResponse(_product_detail_html(product))
+
+
+class SearchView(View):
+
+    def get(self, request):
+        query = request.GET.get(SEARCH_QUERY_PARAM, '')
+        results = _search_products(query)
+        if not results:
+            return HttpResponse(_search_no_results_html(query))
+        return HttpResponse(_search_results_html(query, results))
+
+
+# ---------------------------------------------------------------------------
+# Routing / application
+# ---------------------------------------------------------------------------
+
+urlpatterns = [
+    path('', HomeView.as_view()),
+    path('products/', ProductListView.as_view()),
+    path('product/<int:product_id>/', ProductDetailView.as_view()),
+    path('search/', SearchView.as_view()),
+]
+
+app = get_wsgi_application()
+
+
+if __name__ == '__main__':
+    from django.core.management import execute_from_command_line
+    execute_from_command_line(RUNSERVER_ARGV)

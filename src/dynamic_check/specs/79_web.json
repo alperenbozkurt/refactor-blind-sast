@@ -1,0 +1,485 @@
+{
+ "79_DS-4": {
+  "framework": "pyramid",
+  "direct": true,
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "target": "view_notifications_view",
+  "normal": {
+   "matchdict": {
+    "user_id": "hello"
+   }
+  },
+  "attack": {
+   "matchdict": {
+    "user_id": "<zzx>ZZXSS7</zzx>"
+   }
+  }
+ },
+ "79_DS-5": {
+  "framework": "cherrypy",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "pre_calls": [
+    {
+     "target": "FeedbackSystem.add_feedback",
+     "args": [
+      "u",
+      "hello",
+      5
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/view"
+    }
+   ]
+  },
+  "attack": {
+   "pre_calls": [
+    {
+     "target": "FeedbackSystem.add_feedback",
+     "args": [
+      "u",
+      "<zzx>ZZXSS7</zzx>",
+      5
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/view"
+    }
+   ]
+  }
+ },
+ "79_DS-6": {
+  "framework": "bottle",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/post",
+     "params": {
+      "username": "u",
+      "content": "hello"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/post",
+     "params": {
+      "username": "u",
+      "content": "<zzx>ZZXSS7</zzx>"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  }
+ },
+ "79_DS-1": {
+  "framework": "flask",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/add_comment/1",
+     "params": {
+      "comment": "hello"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/add_comment/1",
+     "params": {
+      "comment": "<zzx>ZZXSS7</zzx>"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  }
+ },
+ "79_DS-11": {
+  "framework": "flask",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/post/1",
+     "params": {
+      "author": "a",
+      "comment": "hello"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/post/1"
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/post/1",
+     "params": {
+      "author": "a",
+      "comment": "<zzx>ZZXSS7</zzx>"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/post/1"
+    }
+   ]
+  }
+ },
+ "79_DS-2": {
+  "framework": "skip"
+ },
+ "79_DS-3": {
+  "framework": "skip"
+ },
+ "79_DS-7": {
+  "framework": "skip"
+ },
+ "79_DS-8": {
+  "framework": "quart",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/new",
+     "data": {
+      "page_id": "p1",
+      "title": "t",
+      "content": "hello",
+      "author": "a"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/page/p1"
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/new",
+     "data": {
+      "page_id": "p1",
+      "title": "t",
+      "content": "<zzx>ZZXSS7</zzx>",
+      "author": "a"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/page/p1"
+    }
+   ]
+  }
+ },
+ "79_DS-9": {
+  "framework": "skip"
+ },
+ "79_DS-10": {
+  "framework": "falcon",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "pre_calls": [
+    {
+     "target": "report_storage.create_report",
+     "args": [
+      "t",
+      "hello",
+      "a"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/reports"
+    }
+   ]
+  },
+  "attack": {
+   "pre_calls": [
+    {
+     "target": "report_storage.create_report",
+     "args": [
+      "t",
+      "<zzx>ZZXSS7</zzx>",
+      "a"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/reports"
+    }
+   ]
+  }
+ },
+ "79_DS-12": {
+  "framework": "django",
+  "direct": true,
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "target": "SearchView.get",
+  "normal": {
+   "method": "GET",
+   "params": {
+    "query": "hello"
+   }
+  },
+  "attack": {
+   "method": "GET",
+   "params": {
+    "query": "<zzx>ZZXSS7</zzx>"
+   }
+  }
+ },
+ "79_DS-13": {
+  "framework": "bottle",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/register",
+     "params": {
+      "username": "hello",
+      "password": "x"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/profile"
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/register",
+     "params": {
+      "username": "<zzx>ZZXSS7</zzx>",
+      "password": "x"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/profile"
+    }
+   ]
+  }
+ },
+ "79_DS-14": {
+  "framework": "skip"
+ },
+ "79_DS-15": {
+  "framework": "skip"
+ },
+ "79_DS-16": {
+  "framework": "skip"
+ },
+ "79_DS-17": {
+  "framework": "cherrypy",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "pre_calls": [
+    {
+     "target": "FeedbackSystem.add_feedback",
+     "args": [
+      "u",
+      "hello"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  },
+  "attack": {
+   "pre_calls": [
+    {
+     "target": "FeedbackSystem.add_feedback",
+     "args": [
+      "u",
+      "<zzx>ZZXSS7</zzx>"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  }
+ },
+ "79_DS-18": {
+  "framework": "quart",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/post/new",
+     "data": {
+      "title": "hello",
+      "content": "hello"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "POST",
+     "path": "/post/new",
+     "data": {
+      "title": "<zzx>ZZXSS7</zzx>",
+      "content": "<zzx>ZZXSS7</zzx>"
+     }
+    },
+    {
+     "method": "GET",
+     "path": "/"
+    }
+   ]
+  }
+ },
+ "79_DS-19": {
+  "framework": "sanic",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "seed": "init_db",
+   "pre_sql": [
+    {
+     "db": "profiles.db",
+     "sql": "CREATE TABLE IF NOT EXISTS users (id TEXT PRIMARY KEY, username TEXT, full_name TEXT, bio TEXT, created_at TEXT)",
+     "params": []
+    },
+    {
+     "db": "profiles.db",
+     "sql": "INSERT INTO users (id,username,full_name,bio,created_at) VALUES (?,?,?,?,?)",
+     "params": [
+      "id1",
+      "zz",
+      "x",
+      "b",
+      "2026"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/profile",
+     "params": {
+      "username": "zz",
+      "theme": "light"
+     }
+    }
+   ]
+  },
+  "attack": {
+   "seed": "init_db",
+   "pre_sql": [
+    {
+     "db": "profiles.db",
+     "sql": "CREATE TABLE IF NOT EXISTS users (id TEXT PRIMARY KEY, username TEXT, full_name TEXT, bio TEXT, created_at TEXT)",
+     "params": []
+    },
+    {
+     "db": "profiles.db",
+     "sql": "INSERT INTO users (id,username,full_name,bio,created_at) VALUES (?,?,?,?,?)",
+     "params": [
+      "id1",
+      "zz",
+      "x",
+      "b",
+      "2026"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/profile",
+     "params": {
+      "username": "zz",
+      "theme": "<zzx>ZZXSS7</zzx>"
+     }
+    }
+   ]
+  }
+ },
+ "79_DS-20": {
+  "framework": "falcon",
+  "leak_marker": "<zzx>ZZXSS7</zzx>",
+  "normal": {
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/search",
+     "params": {
+      "query": "hello"
+     }
+    }
+   ]
+  },
+  "attack": {
+   "steps": [
+    {
+     "method": "GET",
+     "path": "/search",
+     "params": {
+      "query": "<zzx>ZZXSS7</zzx>"
+     }
+    }
+   ]
+  }
+ }
+}

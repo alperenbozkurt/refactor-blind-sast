@@ -1,0 +1,1302 @@
+[
+ {
+  "id": "89_DS-1",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-1",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-1",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-1",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-1",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-10",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-10",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-10",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-10",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-10",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-11",
+  "arm": "roundtrip",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-11",
+  "arm": "inline",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-11",
+  "arm": "local",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-11",
+  "arm": "constant",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-11",
+  "arm": "helper",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-12",
+  "arm": "roundtrip",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-12",
+  "arm": "inline",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-12",
+  "arm": "local",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-12",
+  "arm": "constant",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-12",
+  "arm": "helper",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-13",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-13",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-13",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-13",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-13",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-14",
+  "arm": "roundtrip",
+  "sites": 3,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-14",
+  "arm": "inline",
+  "sites": 3,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-14",
+  "arm": "local",
+  "sites": 3,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-14",
+  "arm": "constant",
+  "sites": 3,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-14",
+  "arm": "helper",
+  "sites": 3,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-15",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-15",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-15",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-15",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-15",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-16",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-16",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-16",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-16",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-16",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-17",
+  "arm": "roundtrip",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-17",
+  "arm": "inline",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-17",
+  "arm": "local",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-17",
+  "arm": "constant",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-17",
+  "arm": "helper",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-18",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-18",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-18",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-18",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-18",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-19",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-19",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-19",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-19",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-19",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-2",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-2",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-2",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-2",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-2",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-20",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-20",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-20",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-20",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-20",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-3",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-3",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-3",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-3",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-3",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-4",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-4",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-4",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-4",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-4",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-5",
+  "arm": "roundtrip",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-5",
+  "arm": "inline",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-5",
+  "arm": "local",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-5",
+  "arm": "constant",
+  "sites": 1,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-5",
+  "arm": "helper",
+  "sites": 1,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-6",
+  "arm": "roundtrip",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-6",
+  "arm": "inline",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-6",
+  "arm": "local",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-6",
+  "arm": "constant",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-6",
+  "arm": "helper",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-7",
+  "arm": "roundtrip",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-7",
+  "arm": "inline",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-7",
+  "arm": "local",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-7",
+  "arm": "constant",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-7",
+  "arm": "helper",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": true
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-8",
+  "arm": "roundtrip",
+  "sites": 3,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-8",
+  "arm": "inline",
+  "sites": 3,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-8",
+  "arm": "local",
+  "sites": 3,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-8",
+  "arm": "constant",
+  "sites": 3,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-8",
+  "arm": "helper",
+  "sites": 3,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-9",
+  "arm": "roundtrip",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": true,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-9",
+  "arm": "inline",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-9",
+  "arm": "local",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-9",
+  "arm": "constant",
+  "sites": 2,
+  "detected": {
+   "bandit": false,
+   "semgrep-registry": false,
+   "semgrep-bandit": true,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ },
+ {
+  "id": "89_DS-9",
+  "arm": "helper",
+  "sites": 2,
+  "detected": {
+   "bandit": true,
+   "semgrep-registry": false,
+   "semgrep-bandit": false,
+   "codeql": false
+  },
+  "codeql_ok": true,
+  "attack_fires": true
+ }
+]

@@ -1,0 +1,48 @@
+scan kimi base: 0 done, 720 to do, spent so far $0.00
+   scan kimi base: 20/720  $0.26  ~31 min left
+   scan kimi base: 40/720  $0.53  ~27 min left
+   scan kimi base: 60/720  $0.76  ~23 min left
+   scan kimi base: 80/720  $1.02  ~22 min left
+   scan kimi base: 100/720  $1.22  ~21 min left
+   scan kimi base: 120/720  $1.44  ~20 min left
+   scan kimi base: 140/720  $1.69  ~20 min left
+   scan kimi base: 160/720  $1.95  ~19 min left
+   scan kimi base: 180/720  $2.20  ~19 min left
+   scan kimi base: 200/720  $2.46  ~19 min left
+   scan kimi base: 220/720  $2.75  ~18 min left
+   scan kimi base: 240/720  $3.00  ~17 min left
+   scan kimi base: 260/720  $3.27  ~17 min left
+   scan kimi base: 280/720  $3.49  ~16 min left
+   scan kimi base: 300/720  $3.72  ~15 min left
+   scan kimi base: 320/720  $3.98  ~14 min left
+   scan kimi base: 340/720  $4.20  ~14 min left
+   scan kimi base: 360/720  $4.40  ~13 min left
+   scan kimi base: 380/720  $4.63  ~12 min left
+   scan kimi base: 400/720  $4.83  ~11 min left
+   scan kimi base: 420/720  $5.11  ~11 min left
+   scan kimi base: 440/720  $5.32  ~10 min left
+   scan kimi base: 460/720  $5.58  ~9 min left
+   scan kimi base: 480/720  $5.83  ~9 min left
+   scan kimi base: 500/720  $6.12  ~8 min left
+   scan kimi base: 520/720  $6.34  ~7 min left
+   scan kimi base: 540/720  $6.56  ~6 min left
+   scan kimi base: 560/720  $6.82  ~6 min left
+   scan kimi base: 580/720  $7.05  ~5 min left
+   scan kimi base: 600/720  $7.26  ~4 min left
+   scan kimi base: 620/720  $7.47  ~3 min left
+   scan kimi base: 640/720  $7.69  ~3 min left
+   scan kimi base: 660/720  $7.96  ~2 min left
+   scan kimi base: 680/720  $8.24  ~1 min left
+   scan kimi base: 700/720  $8.51  ~1 min left
+   scan kimi base: 720/720  $8.77  ~0 min left
+scan kimi base: finished 720 jobs, 0 errors, total spent $8.77
+
+kimi / base: 240 programs, up to 3 answers each (majority vote), 0 unreadable answers
+CWE 22   vulnerable flagged   20/20   (located   16) | fixed flagged    7/20  
+CWE 77   vulnerable flagged   20/20   (located   20) | fixed flagged    0/20  
+CWE 79   vulnerable flagged   20/20   (located   17) | fixed flagged    1/20  
+CWE 89   vulnerable flagged   20/20   (located   20) | fixed flagged    0/20  
+CWE 94   vulnerable flagged   20/20   (located   20) | fixed flagged    0/20  
+CWE 502  vulnerable flagged   20/20   (located   20) | fixed flagged    4/20  
+CWE all  vulnerable flagged  120/120  (located  113) | fixed flagged   12/120 
+repeats agree on 'flagged' for 232/240 programs, on 'located' for 236/240

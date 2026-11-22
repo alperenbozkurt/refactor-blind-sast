@@ -1,0 +1,128 @@
+[
+ {
+  "probe": "sibling_http",
+  "error": null,
+  "leaked": true,
+  "opened": true,
+  "id": "22_DS-1",
+  "kind": "vuln",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "sibling_http",
+  "error": null,
+  "leaked": true,
+  "opened": true,
+  "id": "22_DS-1",
+  "kind": "safe",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "sibling_flask",
+  "error": null,
+  "leaked": true,
+  "opened": true,
+  "id": "22_DS-2",
+  "kind": "vuln",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "sibling_flask",
+  "error": null,
+  "leaked": true,
+  "opened": true,
+  "id": "22_DS-2",
+  "kind": "safe",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "tar_slip",
+  "error": null,
+  "returned": "True",
+  "written_outside": true,
+  "id": "22_DS-6",
+  "kind": "vuln",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "tar_slip",
+  "error": null,
+  "returned": "True",
+  "written_outside": true,
+  "id": "22_DS-6",
+  "kind": "safe",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "joblib_upload",
+  "error": null,
+  "status": 200,
+  "deser": [
+   "pickle.load"
+  ],
+  "id": "502_DS-8",
+  "kind": "vuln",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "joblib_upload",
+  "error": null,
+  "status": 200,
+  "deser": [
+   "pickle._Unpickler.load"
+  ],
+  "id": "502_DS-8",
+  "kind": "safe",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "restricted_unpickler",
+  "error": null,
+  "returned": "False",
+  "printed": "Error loading config: 'dict' object has no attribute 'tracking_id'",
+  "deser": [
+   "pickle.loads"
+  ],
+  "id": "502_DS-1",
+  "kind": "vuln",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "restricted_unpickler",
+  "error": null,
+  "returned": "False",
+  "printed": "Error loading config: file must have 'read' and 'readline' attributes",
+  "deser": [
+   "pickle.Unpickler()"
+  ],
+  "id": "502_DS-1",
+  "kind": "safe",
+  "verdict": "blocked"
+ },
+ {
+  "probe": "profile_page",
+  "error": null,
+  "status_bio": 200,
+  "status_plain": 200,
+  "bio_dom_bytes": 1141,
+  "bio_became_element": true,
+  "plain_dom_bytes": 1152,
+  "welcome_became_element": true,
+  "id": "79_DS-19",
+  "kind": "vuln",
+  "verdict": "flaw reachable"
+ },
+ {
+  "probe": "profile_page",
+  "error": null,
+  "status_bio": 200,
+  "status_plain": 200,
+  "bio_dom_bytes": 1746,
+  "bio_became_element": true,
+  "plain_dom_bytes": 1699,
+  "welcome_became_element": true,
+  "id": "79_DS-19",
+  "kind": "safe",
+  "verdict": "flaw reachable"
+ }
+]

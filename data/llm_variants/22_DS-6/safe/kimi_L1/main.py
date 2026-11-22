@@ -1,0 +1,163 @@
+"""Flask service for creating, listing, restoring, and downloading config backups."""
+
+import os
+import shutil
+import tarfile
+from datetime import datetime
+
+from flask import Flask, jsonify, request, send_file
+from werkzeug.utils import secure_filename
+
+app = Flask(__name__)
+app.config['BACKUP_DIR'] = os.path.abspath('/var/backups/configs')
+app.config['MAX_BACKUPS'] = 10
+app.config['ALLOWED_RESTORE_PATHS'] = ['/etc/appconfig', '/var/appconfig']
+
+
+class BackupManager:
+    """Create, restore, list, and prune configuration backups."""
+
+    def __init__(self):
+        os.makedirs(app.config['BACKUP_DIR'], exist_ok=True)
+
+    def is_safe_path(self, base, path):
+        """Return True if ``path`` is located inside ``base``."""
+        base = os.path.abspath(base)
+        path = os.path.abspath(path)
+        return path.startswith(base + os.sep)
+
+    def create_backup(self, config_path):
+        """Create a timestamped tarball of ``config_path``.
+
+        Returns the path of the new backup, or None on failure.
+        """
+        if not os.path.exists(config_path):
+            return None
+        if not self._is_allowed_restore_path(config_path):
+            return None
+
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        backup_name = f'config_backup_{timestamp}.tar.gz'
+        backup_path = os.path.join(app.config['BACKUP_DIR'], backup_name)
+
+        try:
+            with tarfile.open(backup_path, 'w:gz') as tar:
+                tar.add(config_path, arcname=os.path.basename(config_path))
+            self._cleanup_old_backups()
+            return backup_path
+        except Exception as e:
+            app.logger.error(f'Backup failed: {e}')
+            return None
+
+    def restore_backup(self, backup_file, restore_path=None):
+        """Extract ``backup_file`` into ``restore_path`` (or the backup dir).
+
+        Returns True on success, False otherwise.
+        """
+        if not backup_file.endswith('.tar.gz') or '../' in backup_file:
+            return False
+
+        full_backup_path = os.path.join(app.config['BACKUP_DIR'], backup_file)
+        if not self.is_safe_path(app.config['BACKUP_DIR'], full_backup_path):
+            return False
+        if not os.path.exists(full_backup_path):
+            return False
+
+        try:
+            with tarfile.open(full_backup_path, 'r:gz') as tar:
+                if restore_path:
+                    if not self._is_allowed_restore_path(restore_path):
+                        return False
+                    os.makedirs(restore_path, exist_ok=True)
+                    tar.extractall(path=restore_path)
+                else:
+                    tar.extractall(path=app.config['BACKUP_DIR'])
+            return True
+        except Exception as e:
+            app.logger.error(f'Restore failed: {e}')
+            return False
+
+    def _is_allowed_restore_path(self, path):
+        """Return True if ``path`` lies inside one of the allowed restore roots."""
+        return any(
+            self.is_safe_path(allowed_path, path)
+            for allowed_path in app.config['ALLOWED_RESTORE_PATHS']
+        )
+
+    def _list_backup_filenames(self):
+        """Return the filenames of all valid backups in the backup directory."""
+        backup_dir = app.config['BACKUP_DIR']
+        return [
+            filename
+            for filename in os.listdir(backup_dir)
+            if filename.endswith('.tar.gz')
+            and self.is_safe_path(backup_dir, os.path.join(backup_dir, filename))
+        ]
+
+    def _cleanup_old_backups(self):
+        """Delete the oldest backups until at most MAX_BACKUPS remain."""
+        backup_dir = app.config['BACKUP_DIR']
+        backups = sorted(
+            (os.path.join(backup_dir, name) for name in self._list_backup_filenames()),
+            key=os.path.getmtime,
+        )
+        while len(backups) > app.config['MAX_BACKUPS']:
+            try:
+                os.remove(backups.pop(0))
+            except Exception as e:
+                app.logger.error(f'Failed to remove old backup: {e}')
+
+
+backup_manager = BackupManager()
+
+
+@app.route('/backup', methods=['POST'])
+def create_config_backup():
+    data = request.get_json()
+    if not data or 'config_path' not in data:
+        return jsonify({'error': 'Missing config_path'}), 400
+
+    backup_path = backup_manager.create_backup(data['config_path'])
+    if backup_path:
+        return jsonify({'status': 'success', 'backup_path': os.path.basename(backup_path)}), 201
+    return jsonify({'error': 'Backup failed'}), 500
+
+
+@app.route('/restore', methods=['POST'])
+def restore_config_backup():
+    data = request.get_json()
+    if not data or 'backup_file' not in data:
+        return jsonify({'error': 'Missing backup_file'}), 400
+
+    restore_path = data.get('restore_path')
+    if backup_manager.restore_backup(data['backup_file'], restore_path):
+        return jsonify({'status': 'success'}), 200
+    return jsonify({'error': 'Restore failed'}), 500
+
+
+@app.route('/backups', methods=['GET'])
+def list_backups():
+    try:
+        backups = backup_manager._list_backup_filenames()
+        return jsonify({'backups': backups})
+    except Exception as e:
+        app.logger.error(f'Error listing backups: {e}')
+        return jsonify({'error': 'Internal server error'}), 500
+
+
+@app.route('/download/<backup_file>')
+def download_backup(backup_file):
+    if not backup_file.endswith('.tar.gz') or '../' in backup_file:
+        return jsonify({'error': 'Invalid backup file'}), 400
+
+    backup_path = os.path.join(app.config['BACKUP_DIR'], backup_file)
+    if not backup_manager.is_safe_path(app.config['BACKUP_DIR'], backup_path):
+        return jsonify({'error': 'Access denied'}), 403
+    if not os.path.exists(backup_path):
+        return jsonify({'error': 'Backup not found'}), 404
+
+    return send_file(backup_path, as_attachment=True)
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)

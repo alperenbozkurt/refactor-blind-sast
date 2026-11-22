@@ -1,0 +1,1548 @@
+[
+ {
+  "id": "77_DS-1",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-1",
+  "variant": "sonnet_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-1",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-10",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-10",
+  "variant": "sonnet_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-10",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-13",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-13",
+  "variant": "sonnet_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-14",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-15",
+  "variant": "sonnet_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-15",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-16",
+  "variant": "kimi_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-16",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-16",
+  "variant": "sonnet_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-16",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-17",
+  "variant": "kimi_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-17",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "kimi_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "kimi_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 2,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 2,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "sonnet_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "sonnet_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 2,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 2,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-19",
+  "variant": "kimi_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-19",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-2",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-20",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-20",
+  "variant": "sonnet_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-20",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-3",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-3",
+  "variant": "sonnet_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-4",
+  "variant": "kimi_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-4",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-4",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "kimi_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "sonnet_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "sonnet_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-6",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-6",
+  "variant": "sonnet_L0",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-6",
+  "variant": "sonnet_L1",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-6",
+  "variant": "sonnet_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-8",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-9",
+  "variant": "kimi_L2",
+  "arm": "devirtualize",
+  "usable": true,
+  "sites": 1,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-1",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-1",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-1",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-10",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-10",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-10",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-11",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-11",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-11",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-12",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-12",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-12",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-13",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-13",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-13",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-14",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-14",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-14",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-15",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-15",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-15",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-16",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-16",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-16",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-17",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-17",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-17",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 5,
+  "total": 6,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 5,
+  "total": 6,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-18",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 5,
+  "total": 6,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-19",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-19",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-19",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-2",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-2",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-2",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-20",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-20",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-20",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-3",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-3",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-3",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-4",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-4",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-4",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-5",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 4,
+  "total": 4,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-6",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-6",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-6",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-7",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 2,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-7",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 2,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-7",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 2,
+  "total": 2,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-8",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-8",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-8",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ },
+ {
+  "id": "77_DS-9",
+  "variant": "roundtrip",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-9",
+  "variant": "direct",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": true,
+  "rules": [
+   "py/command-line-injection"
+  ],
+  "detected_at_shell_sink": true
+ },
+ {
+  "id": "77_DS-9",
+  "variant": "table",
+  "arm": "introduce",
+  "usable": true,
+  "moved": 3,
+  "total": 3,
+  "sink_moved": true,
+  "ok": true,
+  "error": "",
+  "detected": false,
+  "rules": [],
+  "detected_at_shell_sink": false
+ }
+]
