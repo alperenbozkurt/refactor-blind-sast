@@ -70,6 +70,8 @@ that asks for a JSON verdict with CWE, function and line.
 | False alarms, equivalence, per-model analyses | `src/extra_analyses.py` | `results/extra_analyses.json` |
 | Line check, combinations, silent repairs, sensitivity | `src/review_analyses.py` | `results/review_analyses.json` |
 | Probes on six fixed programs | `src/dynamic_check/fix_probes.py` | `results/fix_probes.json` |
+| Checks of the closed refactorings | `src/closed_check.py` | `results/closed_check.json` |
+| False alarms on refactored fixed programs | `src/refactored_fixed_alarms.py` | `results/refactored_fixed_alarms.json` |
 
 `run_api.sh` runs the API steps in order. Every LLM step is resumable and has a cost limit.
 Run every script from the repository root with `-I`.

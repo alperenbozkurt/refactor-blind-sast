@@ -4666,12 +4666,12 @@
   "cwe": 79,
   "kind": "vuln",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
-  "rules": [
+  "rules": [],
+  "other_rules": [
    "B201:flask_debug_true"
   ],
-  "other_rules": [],
   "span_found": true
  },
  {
@@ -4811,12 +4811,12 @@
   "cwe": 79,
   "kind": "vuln",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
-  "rules": [
+  "rules": [],
+  "other_rules": [
    "B201:flask_debug_true"
   ],
-  "other_rules": [],
   "span_found": true
  },
  {

@@ -25534,12 +25534,10 @@
   "kind": "vuln",
   "variant": "kimi_L0",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-1",
@@ -25569,12 +25567,10 @@
   "kind": "vuln",
   "variant": "kimi_L1",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-1",
@@ -25637,12 +25633,10 @@
   "kind": "vuln",
   "variant": "sonnet_L0",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-1",
@@ -25672,12 +25666,10 @@
   "kind": "vuln",
   "variant": "sonnet_L1",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-1",
@@ -26334,12 +26326,10 @@
   "kind": "vuln",
   "variant": "kimi_L0",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-11",
@@ -26369,12 +26359,10 @@
   "kind": "vuln",
   "variant": "kimi_L1",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-11",
@@ -26437,12 +26425,10 @@
   "kind": "vuln",
   "variant": "sonnet_L0",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-11",
@@ -26472,12 +26458,10 @@
   "kind": "vuln",
   "variant": "sonnet_L1",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-11",
@@ -26507,12 +26491,10 @@
   "kind": "vuln",
   "variant": "sonnet_L2",
   "tool": "bandit",
-  "detected": true,
+  "detected": false,
   "in_function": false,
   "span_found": true,
-  "rules": [
-   "B201:flask_debug_true"
-  ]
+  "rules": []
  },
  {
   "id": "79_DS-11",

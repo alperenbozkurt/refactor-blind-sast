@@ -1,0 +1,98 @@
+{
+ "bandit": {
+  "fixed_originals": [
+   6,
+   109
+  ],
+  "refactored_fixed": [
+   32,
+   653
+  ],
+  "refactored_fixed_pct": 4.9,
+  "wilson95": [
+   3.5,
+   6.8
+  ],
+  "refactored_fixed_where_attack_fires": 0
+ },
+ "semgrep-bandit": {
+  "fixed_originals": [
+   4,
+   109
+  ],
+  "refactored_fixed": [
+   21,
+   653
+  ],
+  "refactored_fixed_pct": 3.2,
+  "wilson95": [
+   2.1,
+   4.9
+  ],
+  "refactored_fixed_where_attack_fires": 0
+ },
+ "semgrep-registry": {
+  "fixed_originals": [
+   3,
+   109
+  ],
+  "refactored_fixed": [
+   16,
+   653
+  ],
+  "refactored_fixed_pct": 2.5,
+  "wilson95": [
+   1.5,
+   3.9
+  ],
+  "refactored_fixed_where_attack_fires": 0
+ },
+ "codeql": {
+  "fixed_originals": [
+   24,
+   109
+  ],
+  "refactored_fixed": [
+   135,
+   653
+  ],
+  "refactored_fixed_pct": 20.7,
+  "wilson95": [
+   17.7,
+   23.9
+  ],
+  "refactored_fixed_where_attack_fires": 0
+ },
+ "kimi": {
+  "fixed_originals": [
+   13,
+   109
+  ],
+  "refactored_fixed": [
+   67,
+   653
+  ],
+  "refactored_fixed_pct": 10.3,
+  "wilson95": [
+   8.2,
+   12.8
+  ],
+  "refactored_fixed_where_attack_fires": 0
+ },
+ "sonnet": {
+  "fixed_originals": [
+   11,
+   109
+  ],
+  "refactored_fixed": [
+   63,
+   653
+  ],
+  "refactored_fixed_pct": 9.6,
+  "wilson95": [
+   7.6,
+   12.2
+  ],
+  "refactored_fixed_where_attack_fires": 0
+ }
+}

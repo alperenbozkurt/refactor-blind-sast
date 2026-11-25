@@ -94,18 +94,18 @@
  },
  "flagged": {
   "bandit": {
-   "found_orig": 83,
-   "kept": 409,
+   "found_orig": 81,
+   "kept": 400,
    "fixed": 67,
-   "blinded": 17,
-   "blind_pct": 3.99,
+   "blinded": 14,
+   "blind_pct": 3.38,
    "wilson95": [
-    2.51,
-    6.3
+    2.02,
+    5.6
    ],
    "cluster_boot95": [
-    1.86,
-    6.37
+    1.63,
+    5.58
    ]
   },
   "semgrep-bandit": {
@@ -199,9 +199,9 @@
     "fixed": 19
    },
    "79": {
-    "base": 2,
-    "blinded": 3,
-    "kept": 9,
+    "base": 0,
+    "blinded": 0,
+    "kept": 0,
     "fixed": 0
    },
    "89": {
@@ -417,27 +417,27 @@
  "per_prompt_sast_flagged": {
   "kimi_L0": {
    "blinded": 21,
-   "total": 226
+   "total": 224
   },
   "kimi_L1": {
    "blinded": 12,
-   "total": 235
+   "total": 233
   },
   "kimi_L2": {
-   "blinded": 38,
-   "total": 232
+   "blinded": 36,
+   "total": 230
   },
   "sonnet_L0": {
    "blinded": 6,
-   "total": 132
+   "total": 130
   },
   "sonnet_L1": {
    "blinded": 19,
-   "total": 232
+   "total": 230
   },
   "sonnet_L2": {
-   "blinded": 12,
-   "total": 146
+   "blinded": 11,
+   "total": 144
   }
  },
  "llm_noise_floor": {

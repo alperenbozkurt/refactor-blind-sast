@@ -1,0 +1,507 @@
+{
+ "groups": {
+  "closed": {
+   "n": 77,
+   "same_coarse": 77,
+   "same_output": 77,
+   "new_normal_error": 0,
+   "new_attack_error": 0,
+   "works": 77,
+   "sink_observable": 77,
+   "sink_reached": 50,
+   "attack_error_any": 15,
+   "attack_error_also_in_original": 15
+  },
+  "closed/kimi": {
+   "n": 3,
+   "same_coarse": 3,
+   "same_output": 3,
+   "new_normal_error": 0,
+   "new_attack_error": 0,
+   "works": 3,
+   "sink_observable": 3,
+   "sink_reached": 2,
+   "attack_error_any": 1,
+   "attack_error_also_in_original": 1
+  },
+  "closed/sonnet": {
+   "n": 74,
+   "same_coarse": 74,
+   "same_output": 74,
+   "new_normal_error": 0,
+   "new_attack_error": 0,
+   "works": 74,
+   "sink_observable": 74,
+   "sink_reached": 48,
+   "attack_error_any": 14,
+   "attack_error_also_in_original": 14
+  },
+  "fires": {
+   "n": 572,
+   "same_coarse": 572,
+   "same_output": 562,
+   "new_normal_error": 0,
+   "new_attack_error": 0,
+   "works": 572,
+   "sink_observable": 572,
+   "sink_reached": 193,
+   "attack_error_any": 114,
+   "attack_error_also_in_original": 114
+  },
+  "fires/kimi": {
+   "n": 323,
+   "same_coarse": 323,
+   "same_output": 319,
+   "new_normal_error": 0,
+   "new_attack_error": 0,
+   "works": 323,
+   "sink_observable": 323,
+   "sink_reached": 121,
+   "attack_error_any": 74,
+   "attack_error_also_in_original": 74
+  },
+  "fires/sonnet": {
+   "n": 249,
+   "same_coarse": 249,
+   "same_output": 243,
+   "new_normal_error": 0,
+   "new_attack_error": 0,
+   "works": 249,
+   "sink_observable": 249,
+   "sink_reached": 72,
+   "attack_error_any": 40,
+   "attack_error_also_in_original": 40
+  }
+ },
+ "closed_not_working": [],
+ "evidence": {
+  "22": {
+   "other": 5
+  },
+  "502": {
+   "other": 13
+  },
+  "77": {
+   "no_command": 3,
+   "marker_as_argument": 16
+  },
+  "79": {
+   "other": 1
+  },
+  "89": {
+   "sql_parameterized": 34
+  },
+  "94": {
+   "other": 5
+  }
+ },
+ "evidence_cases": [
+  {
+   "id": "22_DS-11",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "22_DS-20",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "22_DS-20",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "22_DS-4",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "<p>Document not found</p>"
+  },
+  {
+   "id": "22_DS-4",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": "<p>Document not found</p>"
+  },
+  {
+   "id": "502_DS-1",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "502_DS-1",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "502_DS-10",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "502_DS-10",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "502_DS-11",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "ValueError: Unsupported config format"
+  },
+  {
+   "id": "502_DS-12",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "Enter document path (or 'quit' to exit):"
+  },
+  {
+   "id": "502_DS-13",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": ""
+  },
+  {
+   "id": "502_DS-17",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "EOFError: EOF when reading a line"
+  },
+  {
+   "id": "502_DS-18",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "EOFError: EOF when reading a line"
+  },
+  {
+   "id": "502_DS-18",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": "EOFError: EOF when reading a line"
+  },
+  {
+   "id": "502_DS-19",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "Select option:"
+  },
+  {
+   "id": "502_DS-20",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "Select option:"
+  },
+  {
+   "id": "502_DS-20",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": "Select option:"
+  },
+  {
+   "id": "77_DS-1",
+   "variant": "sonnet_L0",
+   "category": "no_command",
+   "last_line": "Found in files:"
+  },
+  {
+   "id": "77_DS-3",
+   "variant": "sonnet_L0",
+   "category": "no_command",
+   "last_line": ""
+  },
+  {
+   "id": "77_DS-3",
+   "variant": "sonnet_L2",
+   "category": "no_command",
+   "last_line": ""
+  },
+  {
+   "id": "79_DS-20",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "                </html>"
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "kimi_L2",
+   "category": "other",
+   "last_line": "</html>"
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "</html>"
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "sonnet_L1",
+   "category": "other",
+   "last_line": "</html>"
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "sonnet_L2",
+   "category": "other",
+   "last_line": "</html>"
+  },
+  {
+   "id": "94_DS-16",
+   "variant": "sonnet_L0",
+   "category": "other",
+   "last_line": "9173337"
+  }
+ ],
+ "static_evidence": [
+  {
+   "id": "22_DS-11",
+   "variant": "sonnet_L2",
+   "danger_orig": 2,
+   "danger_ref": 4,
+   "guard_orig": 1,
+   "guard_ref": 5,
+   "fix_visible": true
+  },
+  {
+   "id": "22_DS-20",
+   "variant": "sonnet_L0",
+   "danger_orig": 5,
+   "danger_ref": 5,
+   "guard_orig": 0,
+   "guard_ref": 3,
+   "fix_visible": true
+  },
+  {
+   "id": "22_DS-20",
+   "variant": "sonnet_L2",
+   "danger_orig": 5,
+   "danger_ref": 5,
+   "guard_orig": 0,
+   "guard_ref": 4,
+   "fix_visible": true
+  },
+  {
+   "id": "22_DS-4",
+   "variant": "sonnet_L0",
+   "danger_orig": 2,
+   "danger_ref": 2,
+   "guard_orig": 2,
+   "guard_ref": 5,
+   "fix_visible": true
+  },
+  {
+   "id": "22_DS-4",
+   "variant": "sonnet_L2",
+   "danger_orig": 2,
+   "danger_ref": 2,
+   "guard_orig": 2,
+   "guard_ref": 6,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-1",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 2,
+   "guard_orig": 1,
+   "guard_ref": 4,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-1",
+   "variant": "sonnet_L2",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 1,
+   "guard_ref": 4,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-10",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 2,
+   "guard_ref": 5,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-10",
+   "variant": "sonnet_L2",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 2,
+   "guard_ref": 5,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-11",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 0,
+   "guard_orig": 2,
+   "guard_ref": 2,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-12",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 4,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-13",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 1,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-17",
+   "variant": "sonnet_L0",
+   "danger_orig": 2,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 5,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-18",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 4,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-18",
+   "variant": "sonnet_L2",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 4,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-19",
+   "variant": "sonnet_L0",
+   "danger_orig": 2,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 3,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-20",
+   "variant": "sonnet_L0",
+   "danger_orig": 2,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 5,
+   "fix_visible": true
+  },
+  {
+   "id": "502_DS-20",
+   "variant": "sonnet_L2",
+   "danger_orig": 2,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 5,
+   "fix_visible": true
+  },
+  {
+   "id": "77_DS-1",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 2,
+   "fix_visible": true
+  },
+  {
+   "id": "77_DS-3",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 0,
+   "guard_orig": 0,
+   "guard_ref": 0,
+   "fix_visible": true
+  },
+  {
+   "id": "77_DS-3",
+   "variant": "sonnet_L2",
+   "danger_orig": 1,
+   "danger_ref": 0,
+   "guard_orig": 0,
+   "guard_ref": 0,
+   "fix_visible": true
+  },
+  {
+   "id": "79_DS-20",
+   "variant": "sonnet_L0",
+   "danger_orig": 0,
+   "danger_ref": 0,
+   "guard_orig": 0,
+   "guard_ref": 1,
+   "fix_visible": true
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "kimi_L2",
+   "danger_orig": 1,
+   "danger_ref": 0,
+   "guard_orig": 0,
+   "guard_ref": 0,
+   "fix_visible": true
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "sonnet_L0",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 1,
+   "fix_visible": true
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "sonnet_L1",
+   "danger_orig": 1,
+   "danger_ref": 1,
+   "guard_orig": 0,
+   "guard_ref": 1,
+   "fix_visible": true
+  },
+  {
+   "id": "94_DS-1",
+   "variant": "sonnet_L2",
+   "danger_orig": 1,
+   "danger_ref": 0,
+   "guard_orig": 0,
+   "guard_ref": 1,
+   "fix_visible": true
+  },
+  {
+   "id": "94_DS-16",
+   "variant": "sonnet_L0",
+   "danger_orig": 3,
+   "danger_ref": 1,
+   "guard_orig": 1,
+   "guard_ref": 2,
+   "fix_visible": true
+  }
+ ]
+}
